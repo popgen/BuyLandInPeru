@@ -2,31 +2,31 @@
       <div class="wrap">
         <p class="kicker">El servicio central</p>
         <h1>Camino el inmueble, porque la foto es un discurso.</h1>
-        <p class="lede">El recorrido es el trabajo que más vale la pena contratar. Voy yo, o va un contacto local de confianza cuando la región no es una que yo deba fingir que cubro. Usted recibe un registro de lo que hay. No un estado de ánimo.</p>
+        <p class="lede">El recorrido es el trabajo que más quiero que contrate. Voy al lote, o va un contacto local de confianza cuando la región no es una que yo deba fingir que cubro, y usted recibe un registro de lo que hay. No un estado de ánimo. Un registro.</p>
         <div class="actions">
-          <a class="btn" href="contact.html">Pedir una conversación</a>
-          <a class="btn secondary" href="../services.html">Servicios (inglés)</a>
+          <a class="btn" href="services.html">Qué incluye la visita</a>
+          <a class="btn secondary" href="contact.html">Pedir una conversación</a>
         </div>
       </div>
     </header>
     <section class="section">
       <div class="wrap measure">
         <h2>Lo que puede ver mientras ocurre</h2>
-        <p>Fotos, video y un pase de dron cuando volar es legal y sirve. El dron mira linderos y techos. No es un juguete para el atardecer. En una visita remota lo hacemos en vivo, para que usted diga “gire a la izquierda” y “abra ese cajón”. El video en vivo no reemplaza ver la temporada de lluvias si en esa temporada es cuando necesita el camino.</p>
+        <p>Fotos, video y un pase de dron cuando volar es legal y sirve. El dron es una herramienta para linderos y techos, no un juguete para el atardecer. En una visita remota lo hacemos en vivo, para que usted diga “gire a la izquierda” y “abra ese cajón”. El video en vivo es un servicio propio cuando no puede estar en el país este mes. No reemplaza ver la temporada de lluvias si en esa temporada es cuando va a usar el camino.</p>
         <h2>Otras horas, a propósito</h2>
-        <p>Visito más de un momento. Día de semana y fin de semana. Día y noche. Estación seca y, cuando cambia la decisión, la de lluvias. Las sorpresas que molestan son ordinarias: una discoteca, gallos, el altoparlante de una iglesia al amanecer, y mototaxis que usan la calle como ruta. Nada de eso sale en un aviso tomado un martes a las once.</p>
+        <p>Visito en más de un momento. Día de semana y fin de semana. Día y noche. Estación seca y, cuando cambia la decisión, la de lluvias. Las sorpresas que molestan son ordinarias: una discoteca, gallos, el altoparlante de una iglesia al amanecer, y mototaxis que usan la calle como ruta. Nada de eso sale en un aviso tomado un martes a las once.</p>
         <h2>Los vecinos saben el lote</h2>
         <p>Hablo con quien vive ahí. Las preguntas útiles son secas. Cuánto lleva esta familia. Si hubo un pleito. Si la calle se inunda. Quién duerme de verdad en la casa. De dónde sale el agua en agosto. Quién es el vendedor, en boca del vecino, no solo en el papel. El chisme no es prueba. Una historia repetida y concreta es motivo para mirar más.</p>
         <h2>La manzana</h2>
-        <p>Una nota del entorno: obra vecina, una vía proyectada, un botadero, un fundo que fumiga, un río que se sale, el mercado, la farmacia, la posta. “Tranquilo” a veces significa “vacío porque detrás van a hacer un almacén”.</p>
+        <p>Una nota del entorno cubre lo que está al lado y lo que está previsto: obra, un proyecto de vía, un botadero, un fundo que fumiga, un río que se sale, el mercado, la farmacia, la posta y el bus de noche. “Tranquilo” a veces significa “vacío porque el terreno de atrás va a ser un almacén”.</p>
         <h2>La construcción, si la hay</h2>
-        <p>Miro grietas, humedad, moho, el techo, el drenaje, el tanque y la presión, y el cableado. En la selva busco comején como parte del oficio. Anoto si la obra parece de ingeniero o autoconstrucción. No soy ingeniero estructural. Si las grietas o la ladera me preocupan, el siguiente paso es un ingeniero, no un video más lindo.</p>
+        <p>Miro grietas, humedad, moho, el techo, el drenaje, el tanque y la presión, y el cableado. En la selva busco comején como parte del oficio. Anoto si la obra parece de ingeniero o de autoconstrucción. No soy ingeniero estructural. Si las grietas o la ladera me preocupan, el siguiente paso es un ingeniero, no un video más lindo.</p>
         <h2>El lindero</h2>
-        <p>Comparo el terreno con el plano y con la descripción del registro. Los muros se mueven. Un camino que todos usan puede ser predio de otro. En un predio rural, el acceso por terreno del vecino es parte de esto. La explicación legal, en inglés, está en <a href="../legal.html#rural">agua y acceso</a>.</p>
+        <p>Comparo lo que hay en el terreno con el plano y con la descripción del registro. Los muros se mueven. Un camino que todos usan puede ser predio de otro. Una esquina que “todos conocen” no es una esquina hasta que los papeles y la cinta coinciden. En un predio rural, el acceso por terreno del vecino forma parte de esto, no es un detalle para después. Más en la <a href="legal.html#rural">sección rural</a>.</p>
         <div class="note">
           <h3>Dónde no finjo estar</h3>
-          <p>Centro los recorridos en lugares que conozco. Si su búsqueda está donde yo no debo cubrirla en persona, lo digo. Un contacto local puede caminar con la misma lista, y yo respondo por lo que se le informa. No ofrezco una visita personal a cada región del Perú.</p>
+          <p>Centro los recorridos en lugares que conozco. Si su búsqueda está donde yo no debo cubrirla en persona, lo digo. Un contacto local de confianza puede caminar con la misma lista, y yo respondo por lo que se le informa. No ofrezco una visita personal a cada región del Perú.</p>
         </div>
-        <p>El honorario depende de la distancia, de cuántos inmuebles y de si hace falta una segunda estación. Se cotiza después del ingreso. No hay tarifario en este sitio.</p>
+        <p>El honorario depende de la distancia, de cuántos inmuebles y de si hace falta una segunda estación. Se cotiza después del ingreso. No hay tarifario en este sitio. El video de una visita también puede alimentar el diario más adelante. Eso es un plan, no un canal que se pueda abrir hoy.</p>
       </div>
     </section>

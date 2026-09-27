@@ -2,12 +2,12 @@
       <div class="wrap">
         <p class="kicker">Ingreso</p>
         <h1>Cuénteme qué está tratando de hacer</h1>
-        <p class="lede">Este formulario arma un correo. No guarda nada en un servidor. La dirección es un ejemplo, hasta que se reemplace: <a href="mailto:hello@peruviandreamland.example">hello@peruviandreamland.example</a>.</p>
+        <p class="lede">Este formulario arma un correo. No guarda nada en un servidor. Se envía a <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>.</p>
       </div>
     </header>
     <section class="section">
       <div class="wrap">
-        <form id="intake" data-subject="Consulta Peruvian Dreamland" data-copied="Copiado">
+        <form id="intake" data-subject="Consulta Buy Land in Peru" data-copied="Copiado">
           <div class="form-grid two">
             <label for="name">Nombre<input id="name" name="name" type="text" required autocomplete="name"></label>
             <label for="email">Su correo<input id="email" name="email" type="email" required autocomplete="email"></label>
@@ -16,9 +16,10 @@
               <select id="budget" name="budget" required>
                 <option value="">Elegir</option>
                 <option>Aún no sé</option>
-                <option>Un lote pequeño, unos pocos miles de dólares si el lugar lo permite</option>
-                <option>Casa, departamento o lote más grande</option>
-                <option>Terreno grande, incluido bosque</option>
+                <option>Un lote pequeño, unos pocos miles de dólares si el lugar lo permite ($1,000–$10,000)</option>
+                <option>Casa, departamento o lote más grande ($10,000–$30,000)</option>
+                <option>Terreno grande, incluido bosque ($30,000–$50,000)</option>
+                <option>$50,000+</option>
                 <option>Prefiero conversarlo</option>
               </select>
             </label>
@@ -102,9 +103,18 @@
           <p id="intake-note"></p>
           <pre id="intake-text"></pre>
           <p class="actions">
-            <a id="intake-mail" class="btn" hidden href="mailto:hello@peruviandreamland.example">Abrir el correo</a>
+            <a id="intake-mail" class="btn" hidden href="mailto:info@buylandinperu.com">Abrir el correo</a>
             <button id="intake-copy" class="btn secondary" type="button" hidden>Copiar texto</button>
           </p>
+        </div>
+        <div id="book-meet">
+          <h2>Programar una reunión de Google Meet</h2>
+          <p class="actions">
+            <a data-book-link class="btn" hidden>Programar una reunión de Google Meet</a>
+            <button data-book-wait class="btn" type="button" aria-describedby="book-meet-note">Programar una reunión de Google Meet</button>
+          </p>
+          <p id="book-meet-note" data-book-pending>La programación se abre cuando se agregue el enlace de citas de Google Calendar.</p>
+          <p data-book-detail hidden>La reunión se agrega al Google Calendar del propietario e incluye un enlace de Google Meet si así lo configuró.</p>
         </div>
       </div>
     </section>

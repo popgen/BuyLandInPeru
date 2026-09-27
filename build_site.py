@@ -41,34 +41,29 @@ MORE = [
     ("faq.html", "FAQ", "faq"),
 ]
 ES_PRIMARY = [
-    ("es/index.html", "Inicio", "home"),
     ("es/start.html", "Empezar", "start"),
+    ("es/places.html", "Lugares", "places"),
     ("es/scout.html", "Recorridos", "scout"),
+    ("es/legal.html", "Debida diligencia", "legal"),
+    ("es/money.html", "Dinero", "money"),
+    ("es/journal.html", "Diario", "journal"),
     ("es/contact.html", "Contacto", "contact"),
 ]
 ES_MORE = [
-    ("places.html", "Lugares"),
-    ("quiz.html", "Cuestionario de regiones"),
-    ("find.html", "Buscar inmueble"),
-    ("legal.html", "Debida diligencia"),
-    ("money.html", "Dinero"),
-    ("after.html", "Después de comprar"),
-    ("residency.html", "Residencia"),
-    ("services.html", "Servicios"),
-    ("timeline.html", "Plazos"),
-    ("checklist.html", "Lista"),
-    ("glossary.html", "Glosario"),
-    ("cases.html", "Casos"),
-    ("journal.html", "Diario"),
-    ("about.html", "Acerca de"),
-    ("faq.html", "Preguntas"),
+    ("es/quiz.html", "Cuestionario", "quiz"),
+    ("es/find.html", "Buscar inmueble", "find"),
+    ("es/after.html", "Después de comprar", "after"),
+    ("es/residency.html", "Residencia", "residency"),
+    ("es/services.html", "Servicios", "services"),
+    ("es/timeline.html", "Plazos", "timeline"),
+    ("es/checklist.html", "Lista", "checklist"),
+    ("es/glossary.html", "Glosario", "glossary"),
+    ("es/cases.html", "Casos", "cases"),
+    ("es/about.html", "Acerca de", "about"),
+    ("es/faq.html", "Preguntas", "faq"),
 ]
-ES_PAIRS = {
-    "index.html": "es/index.html",
-    "start.html": "es/start.html",
-    "scout.html": "es/scout.html",
-    "contact.html": "es/contact.html",
-}
+BRAND = "Buy Land in Peru"
+EMAIL = "info@buylandinperu.com"
 
 PAGES = [
     ("index.html", "Home", "On-the-ground help buying property in Peru, from a small lot to forest land.", "home", "en", []),
@@ -91,13 +86,32 @@ PAGES = [
     ("journal/altitude.html", "Altitude is not a detail", "Cusco, Arequipa, Huancayo, and Puno, and why a weekend is a poor test.", "journal", "en", []),
     ("journal/listings.html", "Why the listings are incomplete", "Se vende signs, portals, Facebook, and everything that never goes online.", "journal", "en", []),
     ("about.html", "About", "A US-born guide who later became a Peruvian citizen, and the limits of the work.", "about", "en", []),
-    ("contact.html", "Contact", "Send the discovery questions. Fees are quoted after intake.", "contact", "en", []),
+    ("contact.html", "Contact", "Send the discovery questions. Fees are quoted after intake.", "contact", "en", ["js/booking.js"]),
     ("faq.html", "Questions people ask", "Residency, budgets, lawyers, forest land, and what a visit includes.", "faq", "en", []),
     ("quiz.html", "Region matching quiz", "Match climate, health care, and budget to region guides. Nothing is stored.", "quiz", "en", ["js/quiz.js"]),
-    ("es/index.html", "Inicio", "Ayuda en el terreno para comprar un inmueble en el Perú.", "home", "es", []),
-    ("es/start.html", "Por dónde empezar", "Preguntas de ingreso, altura, costos reales y alquilar antes de comprar.", "start", "es", []),
+    ("es/index.html", "Inicio", "Ayuda en el terreno para comprar un inmueble en el Perú, desde un lote pequeño hasta bosque.", "home", "es", []),
+    ("es/start.html", "Por dónde empezar", "Preguntas de ingreso, altura, una revisión realista y alquilar antes de comprar.", "start", "es", []),
+    ("es/places.html", "Dónde vivir en el Perú", "Guías prácticas por región: clima, vida diaria, salud e infraestructura.", "places", "es", []),
+    ("es/find.html", "Cómo se encuentra un inmueble", "Cómo funciona de verdad el mercado peruano, y cómo busco fuera de los portales.", "find", "es", []),
     ("es/scout.html", "Recorridos en el terreno", "El servicio central: caminar el inmueble para que usted no adivine por fotos.", "scout", "es", []),
-    ("es/contact.html", "Contacto", "Envíe las preguntas de descubrimiento. Los honorarios se cotizan después.", "contact", "es", []),
+    ("es/legal.html", "Debida diligencia y el camino legal", "Orientación en lenguaje claro sobre el título, el notario y las verificaciones que importan.", "legal", "es", []),
+    ("es/money.html", "Dinero, impuestos y costos de cierre", "Cómo se mueve el dinero, qué suele pagar el comprador y una calculadora ilustrativa.", "money", "es", ["js/calc.js"]),
+    ("es/residency.html", "Residencia e inmigración", "Comprar un inmueble no otorga residencia. Una mirada de alto nivel a la diferencia.", "residency", "es", []),
+    ("es/after.html", "Después de la compra", "Guardianes, obra, servicios, alquiler y cómo instalarse.", "after", "es", []),
+    ("es/services.html", "Servicios", "Consulta, recorrido, visita remota, acompañamiento de compra y supervisión posterior.", "services", "es", []),
+    ("es/timeline.html", "Un plazo típico", "Rangos paso a paso. Típicos, no garantizados.", "timeline", "es", []),
+    ("es/checklist.html", "Lista de debida diligencia", "Una lista para imprimir de una compra cuidadosa en el Perú.", "checklist", "es", []),
+    ("es/glossary.html", "Glosario", "Términos inmobiliarios peruanos, explicados en español.", "glossary", "es", []),
+    ("es/cases.html", "Notas de casos", "Un lugar para compras antes y después de la ciudadanía, en palabras del autor.", "cases", "es", []),
+    ("es/journal.html", "Diario", "Ensayos sobre errores, propiedad barata, altura y avisos incompletos.", "journal", "es", []),
+    ("es/journal/mistakes.html", "Errores que cometen los extranjeros", "Errores concretos y ordinarios al comprar un inmueble en el Perú.", "journal", "es", []),
+    ("es/journal/cheap.html", "Cómo se ve una propiedad barata", "Qué suele significar un precio bajo cuando se pisa el terreno.", "journal", "es", []),
+    ("es/journal/altitude.html", "La altura no es un detalle", "Cusco, Arequipa, Huancayo y Puno, y por qué un fin de semana prueba poco.", "journal", "es", []),
+    ("es/journal/listings.html", "Por qué los avisos están incompletos", "Letreros de se vende, portales, Facebook y lo que nunca se publica.", "journal", "es", []),
+    ("es/about.html", "Acerca de", "Un guía nacido en Estados Unidos que luego se hizo ciudadano peruano, y los límites del trabajo.", "about", "es", []),
+    ("es/contact.html", "Contacto", "Envíe las preguntas de descubrimiento. Los honorarios se cotizan después del ingreso.", "contact", "es", ["js/booking.js"]),
+    ("es/faq.html", "Preguntas frecuentes", "Residencia, presupuestos, abogados, bosque y qué incluye una visita.", "faq", "es", []),
+    ("es/quiz.html", "Cuestionario de regiones", "Cruza clima, salud y presupuesto con las guías de región. No se guarda nada.", "quiz", "es", ["js/quiz.js"]),
 ]
 
 
@@ -115,18 +129,17 @@ def current_attr(key, current):
 
 
 def lang_switch(path: str) -> str:
+    p = prefix_for(path)
     if path.startswith("es/"):
         en_target = path[3:]
+        es_self = path.split("/")[-1]
         return (
-            f'<p class="lang"><a href="{prefix_for(path)}{en_target}" lang="en" hreflang="en">EN</a>'
-            f'<a href="{path.split("/")[-1]}" lang="es" hreflang="es" aria-current="true">ES</a></p>'
+            f'<p class="lang"><a href="{p}{en_target}" lang="en" hreflang="en">EN</a>'
+            f'<a href="{es_self}" lang="es" hreflang="es" aria-current="true">ES</a></p>'
         )
-    es_target = ES_PAIRS.get(path, "es/index.html")
-    en_current = ' aria-current="true"'
-    title = "" if path in ES_PAIRS else ' title="Spanish home. This page is still in English."'
     return (
-        f'<p class="lang"><a href="{prefix_for(path)}{path}" lang="en" hreflang="en"{en_current}>EN</a>'
-        f'<a href="{prefix_for(path)}{es_target}" lang="es" hreflang="es"{title}>ES</a></p>'
+        f'<p class="lang"><a href="{p}{path}" lang="en" hreflang="en" aria-current="true">EN</a>'
+        f'<a href="{p}es/{path}" lang="es" hreflang="es">ES</a></p>'
     )
 
 
@@ -138,12 +151,14 @@ def nav_html(path, current, lang):
                 f'<li><a href="{link_path(href, path)}"{current_attr(key, current)}>{label}</a></li>'
             )
         more = []
-        for href, label in ES_MORE:
-            more.append(f'<li><a href="{link_path(href, path)}">{label} · English</a></li>')
+        for href, label, key in ES_MORE:
+            more.append(
+                f'<li><a href="{link_path(href, path)}"{current_attr(key, current)}>{label}</a></li>'
+            )
         return (
             '<nav class="nav-panel" id="nav-panel" aria-label="Principal">'
             f'<ul class="nav-list">{"".join(items)}</ul>'
-            '<details class="more"><summary>Más, en inglés</summary>'
+            '<details class="more"><summary>Más</summary>'
             f'<ul class="more-list">{"".join(more)}</ul></details></nav>'
         )
     items = []
@@ -169,30 +184,49 @@ def footer(path, lang):
     if lang == "es":
         cols = f"""
         <div>
-          <h2>Peruvian Dreamland</h2>
-          <p>Acompaño a personas que compran un inmueble en el Perú y recorro el terreno. No soy su abogado, ni su notario, ni su contador.</p>
-          <p><a href="{p}es/index.html">Inicio</a></p>
+          <h2>Guías</h2>
+          <ul class="footer-nav">
+            <li><a href="{p}es/start.html">Empezar</a></li>
+            <li><a href="{p}es/places.html">Lugares</a></li>
+            <li><a href="{p}es/find.html">Buscar inmueble</a></li>
+            <li><a href="{p}es/scout.html">Recorridos</a></li>
+            <li><a href="{p}es/legal.html">Debida diligencia</a></li>
+            <li><a href="{p}es/money.html">Dinero e impuestos</a></li>
+            <li><a href="{p}es/residency.html">Residencia</a></li>
+            <li><a href="{p}es/after.html">Después de comprar</a></li>
+          </ul>
         </div>
         <div>
-          <h2>En español</h2>
+          <h2>Herramientas</h2>
           <ul class="footer-nav">
-            <li><a href="{p}es/index.html">Inicio</a></li>
-            <li><a href="{p}es/start.html">Empezar</a></li>
-            <li><a href="{p}es/scout.html">Recorridos</a></li>
+            <li><a href="{p}es/quiz.html">Cuestionario</a></li>
+            <li><a href="{p}es/services.html">Servicios</a></li>
+            <li><a href="{p}es/timeline.html">Plazos</a></li>
+            <li><a href="{p}es/checklist.html">Lista para imprimir</a></li>
+            <li><a href="{p}es/glossary.html">Glosario</a></li>
+            <li><a href="{p}es/journal.html">Diario</a></li>
+            <li><a href="{p}es/cases.html">Casos</a></li>
+            <li><a href="{p}es/about.html">Acerca de</a></li>
+            <li><a href="{p}es/faq.html">Preguntas</a></li>
             <li><a href="{p}es/contact.html">Contacto</a></li>
           </ul>
-          <p>El resto del sitio sigue en inglés. La traducción completa está en camino.</p>
         </div>
         <div>
           <h2>Escribir</h2>
-          <p><a href="mailto:hello@peruviandreamland.example">hello@peruviandreamland.example</a><br>
-          <span class="fine">Dirección de ejemplo. Hay que reemplazarla.</span></p>
+          <p><a href="mailto:{EMAIL}">{EMAIL}</a></p>
         </div>
         """
         disc = DISCLAIMER_ES
         return f"""
     <footer class="site-footer">
-      <div class="wrap footer-grid">{cols}</div>
+      <div class="wrap footer-grid">
+        <div>
+          <h2>{BRAND}</h2>
+          <p>Acompaño a personas que compran un inmueble en el Perú y recorro el terreno. No soy su abogado, ni su notario, ni su contador.</p>
+          <p><a href="{p}es/index.html">Inicio</a></p>
+        </div>
+        {cols}
+      </div>
       <div class="wrap disclaimer"><p>{disc}</p></div>
     </footer>
     """
@@ -225,12 +259,10 @@ def footer(path, lang):
             <li><a href="{p}faq.html">FAQ</a></li>
             <li><a href="{p}contact.html">Contact</a></li>
           </ul>
-          <p class="fine">En español por ahora: <a href="{p}es/index.html">inicio</a>, <a href="{p}es/start.html">empezar</a>, <a href="{p}es/scout.html">recorridos</a>, <a href="{p}es/contact.html">contacto</a>. Full Spanish is in progress.</p>
         </div>
         <div>
           <h2>Write</h2>
-          <p><a href="mailto:hello@peruviandreamland.example">hello@peruviandreamland.example</a><br>
-          <span class="fine">Placeholder address. Replace it before you publish.</span></p>
+          <p><a href="mailto:{EMAIL}">{EMAIL}</a></p>
         </div>
         """
         disc = DISCLAIMER
@@ -238,7 +270,7 @@ def footer(path, lang):
     <footer class="site-footer">
       <div class="wrap footer-grid">
         <div>
-          <h2>Peruvian Dreamland</h2>
+          <h2>{BRAND}</h2>
           <p>I guide people through buying property in Peru and I scout on the ground. I am not your lawyer, notary, or accountant.</p>
           <p><a href="{p}index.html">Home</a></p>
         </div>
@@ -251,20 +283,17 @@ def footer(path, lang):
 
 def render(path, title, desc, current, lang, scripts, body):
     p = prefix_for(path)
-    extra = "".join(f'<script src="{p}{src}" defer></script>' for src in scripts)
+    extra = "".join(f'\n  <script src="{p}{src}" defer></script>' for src in scripts)
     home = "es/index.html" if lang == "es" else "index.html"
-    banner = ""
-    if lang == "es":
-        banner = f'''<div class="banner"><div class="wrap">Estas páginas están en español: inicio, empezar, recorridos y contacto. El resto del sitio sigue en inglés. <a href="{p}places.html">Lugares</a> y las demás guías, por ahora, se leen en inglés.</div></div>'''
     html_lang = lang
     return f"""<!DOCTYPE html>
 <html lang="{html_lang}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{title} — Peruvian Dreamland</title>
+  <title>{title} — {BRAND}</title>
   <meta name="description" content="{desc}">
-  <meta property="og:title" content="{title} — Peruvian Dreamland">
+  <meta property="og:title" content="{title} — {BRAND}">
   <meta property="og:description" content="{desc}">
   <meta property="og:type" content="website">
   <link rel="icon" href="{p}favicon.svg" type="image/svg+xml">
@@ -281,7 +310,7 @@ def render(path, title, desc, current, lang, scripts, body):
     <div class="wrap header-bar">
       <a class="brand" href="{p}{home}">
         <span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>
-        <span><strong>Peruvian Dreamland</strong><small>{"Guía en el terreno" if lang == "es" else "On-the-ground property guidance"}</small></span>
+        <span><strong>{BRAND}</strong><small>{"Guía en el terreno" if lang == "es" else "On-the-ground property guidance"}</small></span>
       </a>
       <div class="header-tools">
         {lang_switch(path)}
@@ -292,7 +321,6 @@ def render(path, title, desc, current, lang, scripts, body):
       {nav_html(path, current, lang)}
     </div>
   </header>
-  {banner}
   <main id="main">
 {body}
   </main>

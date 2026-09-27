@@ -2,12 +2,12 @@
       <div class="wrap">
         <p class="kicker">Intake</p>
         <h1>Tell me what you are actually trying to do</h1>
-        <p class="lede">This form builds an email. It does not store anything on a server. The address below is a placeholder until it is replaced: <a href="mailto:hello@peruviandreamland.example">hello@peruviandreamland.example</a>.</p>
+        <p class="lede">This form builds an email. It does not store anything on a server. It sends to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>.</p>
       </div>
     </header>
     <section class="section">
       <div class="wrap">
-        <form id="intake" data-subject="Peruvian Dreamland intake" data-copied="Copied">
+        <form id="intake" data-subject="Buy Land in Peru intake" data-copied="Copied">
           <div class="form-grid two">
             <label for="name">Name<input id="name" name="name" type="text" required autocomplete="name"></label>
             <label for="email">Your email<input id="email" name="email" type="email" required autocomplete="email"></label>
@@ -16,9 +16,10 @@
               <select id="budget" name="budget" required>
                 <option value="">Choose</option>
                 <option>Not sure yet</option>
-                <option>A small lot, a few thousand dollars if the place allows it</option>
-                <option>A house, apartment, or larger lot</option>
-                <option>Large land, including forest</option>
+                <option>A small lot, a few thousand dollars if the place allows it ($1,000–$10,000)</option>
+                <option>A house, apartment, or larger lot ($10,000–$30,000)</option>
+                <option>Large land, including forest ($30,000–$50,000)</option>
+                <option>$50,000+</option>
                 <option>I would rather talk it through</option>
               </select>
             </label>
@@ -102,11 +103,20 @@
           <p id="intake-note"></p>
           <pre id="intake-text"></pre>
           <p class="actions">
-            <a id="intake-mail" class="btn" hidden href="mailto:hello@peruviandreamland.example">Open email</a>
+            <a id="intake-mail" class="btn" hidden href="mailto:info@buylandinperu.com">Open email</a>
             <button id="intake-copy" class="btn secondary" type="button" hidden>Copy text</button>
           </p>
         </div>
         <h2>If you would rather paste</h2>
-        <p>Send the same topics, in your own order, to the placeholder address. Include your country, budget, months per year, purpose, climate limits, Spanish, and whether you can visit.</p>
+        <p>Send the same topics, in your own order, to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>. Include your country, budget, months per year, purpose, climate limits, Spanish, and whether you can visit.</p>
+        <div id="book-meet">
+          <h2>Schedule a Google Meet</h2>
+          <p class="actions">
+            <a data-book-link class="btn" hidden>Schedule a Google Meet</a>
+            <button data-book-wait class="btn" type="button" aria-describedby="book-meet-note">Schedule a Google Meet</button>
+          </p>
+          <p id="book-meet-note" data-book-pending>Scheduling opens once the Google Calendar appointment link is added.</p>
+          <p data-book-detail hidden>The meeting is added to the owner's Google Calendar and includes a Google Meet link when they configured it that way.</p>
+        </div>
       </div>
     </section>

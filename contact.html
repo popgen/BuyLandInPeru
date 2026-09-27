@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact — Peruvian Dreamland</title>
+  <title>Contact — Buy Land in Peru</title>
   <meta name="description" content="Send the discovery questions. Fees are quoted after intake.">
-  <meta property="og:title" content="Contact — Peruvian Dreamland">
+  <meta property="og:title" content="Contact — Buy Land in Peru">
   <meta property="og:description" content="Send the discovery questions. Fees are quoted after intake.">
   <meta property="og:type" content="website">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/site.css">
   <script src="js/site.js" defer></script>
   
+  <script src="js/booking.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -22,7 +23,7 @@
     <div class="wrap header-bar">
       <a class="brand" href="index.html">
         <span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>
-        <span><strong>Peruvian Dreamland</strong><small>On-the-ground property guidance</small></span>
+        <span><strong>Buy Land in Peru</strong><small>On-the-ground property guidance</small></span>
       </a>
       <div class="header-tools">
         <p class="lang"><a href="contact.html" lang="en" hreflang="en" aria-current="true">EN</a><a href="es/contact.html" lang="es" hreflang="es">ES</a></p>
@@ -33,18 +34,17 @@
       <nav class="nav-panel" id="nav-panel" aria-label="Primary"><ul class="nav-list"><li><a href="start.html">Start</a></li><li><a href="places.html">Places</a></li><li><a href="scout.html">Scouting</a></li><li><a href="legal.html">Due diligence</a></li><li><a href="money.html">Money</a></li><li><a href="journal.html">Journal</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul><details class="more"><summary>More</summary><ul class="more-list"><li><a href="quiz.html">Region quiz</a></li><li><a href="find.html">Finding property</a></li><li><a href="after.html">After you buy</a></li><li><a href="residency.html">Residency</a></li><li><a href="services.html">Services</a></li><li><a href="timeline.html">Timeline</a></li><li><a href="checklist.html">Checklist</a></li><li><a href="glossary.html">Glossary</a></li><li><a href="cases.html">Case notes</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li></ul></details></nav>
     </div>
   </header>
-  
   <main id="main">
     <header class="page-hero">
       <div class="wrap">
         <p class="kicker">Intake</p>
         <h1>Tell me what you are actually trying to do</h1>
-        <p class="lede">This form builds an email. It does not store anything on a server. The address below is a placeholder until it is replaced: <a href="mailto:hello@peruviandreamland.example">hello@peruviandreamland.example</a>.</p>
+        <p class="lede">This form builds an email. It does not store anything on a server. It sends to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>.</p>
       </div>
     </header>
     <section class="section">
       <div class="wrap">
-        <form id="intake" data-subject="Peruvian Dreamland intake" data-copied="Copied">
+        <form id="intake" data-subject="Buy Land in Peru intake" data-copied="Copied">
           <div class="form-grid two">
             <label for="name">Name<input id="name" name="name" type="text" required autocomplete="name"></label>
             <label for="email">Your email<input id="email" name="email" type="email" required autocomplete="email"></label>
@@ -53,9 +53,10 @@
               <select id="budget" name="budget" required>
                 <option value="">Choose</option>
                 <option>Not sure yet</option>
-                <option>A small lot, a few thousand dollars if the place allows it</option>
-                <option>A house, apartment, or larger lot</option>
-                <option>Large land, including forest</option>
+                <option>A small lot, a few thousand dollars if the place allows it ($1,000–$10,000)</option>
+                <option>A house, apartment, or larger lot ($10,000–$30,000)</option>
+                <option>Large land, including forest ($30,000–$50,000)</option>
+                <option>$50,000+</option>
                 <option>I would rather talk it through</option>
               </select>
             </label>
@@ -139,12 +140,21 @@
           <p id="intake-note"></p>
           <pre id="intake-text"></pre>
           <p class="actions">
-            <a id="intake-mail" class="btn" hidden href="mailto:hello@peruviandreamland.example">Open email</a>
+            <a id="intake-mail" class="btn" hidden href="mailto:info@buylandinperu.com">Open email</a>
             <button id="intake-copy" class="btn secondary" type="button" hidden>Copy text</button>
           </p>
         </div>
         <h2>If you would rather paste</h2>
-        <p>Send the same topics, in your own order, to the placeholder address. Include your country, budget, months per year, purpose, climate limits, Spanish, and whether you can visit.</p>
+        <p>Send the same topics, in your own order, to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>. Include your country, budget, months per year, purpose, climate limits, Spanish, and whether you can visit.</p>
+        <div id="book-meet">
+          <h2>Schedule a Google Meet</h2>
+          <p class="actions">
+            <a data-book-link class="btn" hidden>Schedule a Google Meet</a>
+            <button data-book-wait class="btn" type="button" aria-describedby="book-meet-note">Schedule a Google Meet</button>
+          </p>
+          <p id="book-meet-note" data-book-pending>Scheduling opens once the Google Calendar appointment link is added.</p>
+          <p data-book-detail hidden>The meeting is added to the owner's Google Calendar and includes a Google Meet link when they configured it that way.</p>
+        </div>
       </div>
     </section>
 
@@ -153,7 +163,7 @@
     <footer class="site-footer">
       <div class="wrap footer-grid">
         <div>
-          <h2>Peruvian Dreamland</h2>
+          <h2>Buy Land in Peru</h2>
           <p>I guide people through buying property in Peru and I scout on the ground. I am not your lawyer, notary, or accountant.</p>
           <p><a href="index.html">Home</a></p>
         </div>
@@ -185,12 +195,10 @@
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-          <p class="fine">En español por ahora: <a href="es/index.html">inicio</a>, <a href="es/start.html">empezar</a>, <a href="es/scout.html">recorridos</a>, <a href="es/contact.html">contacto</a>. Full Spanish is in progress.</p>
         </div>
         <div>
           <h2>Write</h2>
-          <p><a href="mailto:hello@peruviandreamland.example">hello@peruviandreamland.example</a><br>
-          <span class="fine">Placeholder address. Replace it before you publish.</span></p>
+          <p><a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a></p>
         </div>
         
       </div>

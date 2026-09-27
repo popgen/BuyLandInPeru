@@ -73,9 +73,10 @@
           </fieldset>
           <fieldset>
             <legend>Budget shape</legend>
-            <label><input type="radio" name="budget" value="entry" required> Entry: a small lot, a few thousand dollars if that place allows it</label>
-            <label><input type="radio" name="budget" value="house"> A house, apartment, or larger lot</label>
-            <label><input type="radio" name="budget" value="land"> Large land, including forest</label>
+            <label><input type="radio" name="budget" value="entry" required> Entry: a small lot, a few thousand dollars if that place allows it ($1,000–$10,000)</label>
+            <label><input type="radio" name="budget" value="house"> A house, apartment, or larger lot ($10,000–$30,000)</label>
+            <label><input type="radio" name="budget" value="land"> Large land, including forest ($30,000–$50,000)</label>
+            <label><input type="radio" name="budget" value="over"> $50,000+</label>
           </fieldset>
           <fieldset>
             <legend>Live there, or hold</legend>

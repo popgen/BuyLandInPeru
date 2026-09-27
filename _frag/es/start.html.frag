@@ -1,41 +1,81 @@
     <header class="page-hero">
       <div class="wrap">
         <p class="kicker">Saber qué quiere</p>
-        <h1>El inmueble es la última pregunta.</h1>
+        <h1>El inmueble es la última pregunta, no la primera.</h1>
         <p class="lede">La gente me escribe un barrio y un presupuesto. La conversación útil empieza antes: cuántos meses va a estar de verdad, qué le hace el calor o la altura, y si un lote barato sigue siendo barato después del techo, el tanque y el camino.</p>
         <div class="actions">
-          <a class="btn" href="../quiz.html">Cuestionario de regiones (inglés)</a>
+          <a class="btn" href="quiz.html">Probar el cuestionario de regiones</a>
           <a class="btn secondary" href="contact.html">Enviar el ingreso</a>
         </div>
       </div>
     </header>
     <section class="section">
       <div class="wrap measure">
-        <h2>Lo que pregunto</h2>
+        <h2>Qué pregunto en un ingreso</h2>
+        <p>El <a href="contact.html">formulario de contacto</a> es esta lista. Responda lo que sepa. “No sé” es una respuesta real.</p>
         <ul>
           <li>Presupuesto, y si ese número es solo el terreno o el terreno más la obra.</li>
           <li>Cuántos meses al año piensa estar en el Perú.</li>
-          <li>Jubilación, casa de vacaciones, alquiler, o una compra que quizás venda. Puede ser más de una cosa. Ninguna es una promesa de ganancia.</li>
-          <li>Si va a alquilar, por temporada corta o por plazo largo.</li>
+          <li>Jubilación, una base de vacaciones, un alquiler, o una compra que quizás venda. Puede ser más de una cosa. Ninguna es una promesa de ganancia.</li>
+          <li>Si va a alquilar el lugar, por estancias cortas o por plazo largo.</li>
           <li>Tolerancia al calor, la humedad, la altura, la lluvia, el ruido y el aislamiento.</li>
-          <li>Qué tan cerca necesita un hospital de verdad, un aeropuerto, y si hay hijos en edad escolar.</li>
-          <li>Comunidad de extranjeros o inmersión. Nivel de español. Internet para trabajar a distancia.</li>
         </ul>
-        <h2>La altura, antes de enamorarse de una foto</h2>
-        <p>Mucha gente no piensa en esto hasta la segunda noche. No soy médico. Si tiene corazón, pulmones, sangre o un embarazo en juego, hable con su propio médico antes de planear una vida sobre los 2.000 metros.</p>
+        <h3>La vida alrededor de la casa</h3>
         <ul>
-          <li><strong>Cusco.</strong> El centro histórico está a unos 3.400 metros.</li>
-          <li><strong>Arequipa.</strong> Unos 2.300 metros. Más bajo que Cusco, y todavía alto.</li>
-          <li><strong>Huancayo.</strong> Unos 3.200 metros.</li>
-          <li><strong>Puno.</strong> Unos 3.800 metros.</li>
+          <li>Qué tan cerca necesita un hospital de verdad, no una farmacia con una cruz roja.</li>
+          <li>Aeropuertos: un hub internacional, un vuelo nacional, o una carretera larga.</li>
+          <li>Colegios internacionales, si hay hijos en el plan.</li>
+          <li>Un entorno de extranjeros, inmersión, o algo en el medio.</li>
+          <li>Español: poco, la vida diaria, o cómodo. Con poco español se puede funcionar en partes de Lima y en algunos balnearios. Es una manera dura de comprar tierra.</li>
+          <li>Internet para trabajar a distancia. La fibra en el pueblo es un hecho distinto de una torre rural o de una antena satelital.</li>
         </ul>
-        <p>El Valle Sagrado suele estar más bajo que la plaza de Cusco, a menudo alrededor de 2.800 metros. Más bajo no es lo mismo que fácil. La guía de lugares, en inglés, está en <a href="../places.html">Places</a>. El ensayo sobre la altura, también en inglés: <a href="../journal/altitude.html">Altitude</a>.</p>
-        <h2>Qué es una propiedad barata</h2>
-        <p>Un precio bajo suele comprar terreno, o una cascara sin terminar, o una casa a la que todavía le falta la mitad aburrida de una casa. Ladrillo sin ventanas. Un techo que filtra en la junta. Cableado que agregó un primo. En registros, solo el predio, no la fábrica. Un lote barato porque el camino muere con la lluvia, o porque el vendedor no puede mostrar un propietario inscrito.</p>
-        <p>No publico un costo de obra en dólares como si fuera un hecho. La mano de obra de un maestro de obra suele ser la sorpresa menor. El cemento, el acero, el cableado decente, la cisterna y un techo que aguante el agua son las mayores. En la selva se suman la humedad y los comejenes. Pida cotizaciones escritas para su plano. Una cifra en Facebook es un rumor.</p>
-        <div class="note">
-          <h2>Alquile antes de comprar</h2>
-          <p>A mucha gente le conviene vivir unos meses en la zona antes de ser dueña de nada. Enero y julio no son el mismo lugar. Puedo ayudar a conseguir ese alquiler. Dígalo en el <a href="contact.html">formulario</a>.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <h2>La altura, antes de enamorarse de una foto</h2>
+        <p class="measure">Mucha gente no piensa en esto hasta la segunda noche. No soy médico. Si tiene corazón, pulmones, sangre o un embarazo en juego, hable con su propio médico antes de planear una vida sobre los 2.000 metros.</p>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Cusco</h3>
+            <p>El centro histórico está a unos 3.400 metros. El dolor de cabeza, el mal sueño y la falta de aire son ordinarios para quien acaba de llegar. Un tour de tres días no es la prueba de un año.</p>
+          </article>
+          <article class="card">
+            <h3>Arequipa</h3>
+            <p>Unos 2.300 metros. Más bajo que Cusco, seco, y todavía lo bastante alto como para que algunas personas lo sientan, sobre todo con una condición del corazón o de los pulmones.</p>
+          </article>
+          <article class="card">
+            <h3>Huancayo</h3>
+            <p>Unos 3.200 metros, en la sierra central. La ciudad es práctica y comercial. La altura no es una nota al pie, y la carretera a Lima puede cerrarse con las lluvias.</p>
+          </article>
+          <article class="card">
+            <h3>Puno</h3>
+            <p>Unos 3.800 metros, en el lago Titicaca. Está entre las ciudades más altas que los compradores tratan como una opción normal. El frío forma parte del día, no de una temporada sorpresa.</p>
+          </article>
         </div>
+        <p class="measure">El Valle Sagrado está más bajo que la plaza de Cusco, a menudo alrededor de 2.800 metros según el pueblo. Más bajo no es lo mismo que fácil. Lea el <a href="journal/altitude.html">ensayo sobre la altura</a> y las <a href="places.html">notas de región</a>.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap measure">
+        <h2>Cómo se ve una “propiedad barata en el Perú”</h2>
+        <p>Un número bajo suele comprar terreno, o una cáscara sin terminar, o una casa a la que todavía le falta la mitad aburrida de una casa. Paredes de ladrillo sin ventanas. Un techo que filtra en la junta. Cableado que agregó un primo. Sin fábrica inscrita, solo el terreno en el título. Un lote barato porque el camino muere con la lluvia, o porque el vendedor no puede mostrar un propietario inscrito.</p>
+        <p>Decepciones comunes, en orden simple:</p>
+        <ul>
+          <li>La foto se tomó al mediodía de un sábado. El viernes de noche es una discoteca, el altoparlante de una iglesia, o gallos.</li>
+          <li>El precio se puso para un comprador extranjero. Los precios de pedido locales, en español, cuentan otra historia. A eso lo llamo precio gringo, y lo comparo con rangos que conozco.</li>
+          <li>La “casa” es autoconstrucción: hecha sin ingeniero, en un país que tiene sismos.</li>
+          <li>El papel es una constancia de posesión, no un título inscrito.</li>
+          <li>El lote de playa es hermoso y puede estar dentro de la franja de 50 km de la frontera, donde los extranjeros en general no pueden ser dueños sin autorización especial.</li>
+        </ul>
+        <p>Construir, remodelar y mantener cuesta en especie, no en un número que yo esté dispuesto a imprimir como hecho. La mano de obra de un maestro de obra suele ser la sorpresa menor. El cemento, el acero, el piso, una instalación eléctrica de verdad, una cisterna y un techo que aguante una lluvia fuerte son las mayores. Las construcciones de selva además pelean con la humedad y el comején. Un cuarto extra simple puede ser un proyecto local modesto. Una casa terminada con agua confiable y cableado decente es otro proyecto. Pida cotizaciones escritas del plano concreto. Trate cualquier cifra en dólares de un grupo de Facebook como un rumor.</p>
+        <p>Más sobre esto en <a href="journal/cheap.html">cómo se ve una propiedad barata</a>.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap note">
+        <h2>Alquile en la zona antes de comprar</h2>
+        <p>A mucha gente le conviene vivir unos meses en un lugar antes de ser dueña de nada ahí. Enero y julio son países distintos en el mismo valle: lluvia, niebla, turistas, calles vacías, presión de agua. Un alquiler muestra el camino al hospital, el mercado, y si duerme.</p>
+        <p>Puedo ayudar a conseguirlo. Es un trabajo más chico que una compra, y a menudo es el que salva la compra. Dígalo en el <a href="contact.html">ingreso</a> si quiere alquilar primero.</p>
       </div>
     </section>

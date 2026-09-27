@@ -58,8 +58,9 @@
     });
 
     var body = lines.join("\n");
-    var subject = form.getAttribute("data-subject") || "Peruvian Dreamland inquiry";
-    var email = "hello@peruviandreamland.example";
+    var es = document.documentElement.lang === "es";
+    var subject = form.getAttribute("data-subject") || (es ? "Consulta Buy Land in Peru" : "Buy Land in Peru inquiry");
+    var email = "info@buylandinperu.com";
     var href = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
 
     var preview = document.getElementById("intake-preview");
@@ -78,8 +79,12 @@
     if (note) {
       note.hidden = false;
       note.textContent = href.length > 1800
-        ? "This note is long enough that some email apps will cut it off. Copy the text below and paste it into a message to the address on this page."
-        : "Open your email app with the button, or copy the text. The address on this site is a placeholder until the owner replaces it.";
+        ? (es
+          ? "Esta nota es tan larga que algunos programas de correo la cortan. Copie el texto y péguelo en un mensaje a info@buylandinperu.com."
+          : "This note is long enough that some email apps will cut it off. Copy the text below and paste it into a message to info@buylandinperu.com.")
+        : (es
+          ? "Abra su correo con el botón, o copie el texto. Se envía a info@buylandinperu.com."
+          : "Open your email app with the button, or copy the text. It goes to info@buylandinperu.com.");
     }
     if (copy) {
       copy.hidden = false;

@@ -2,7 +2,7 @@
       <div class="wrap">
         <p class="kicker">The person, and the limits</p>
         <h1>About this work</h1>
-        <p class="lede">Peruvian Dreamland is my name for guiding people through a purchase in Peru, and for being on the ground when they cannot.</p>
+        <p class="lede">Buy Land in Peru is this guide: I help people through a purchase in Peru, and I am on the ground when they cannot.</p>
       </div>
     </header>
     <section class="section">

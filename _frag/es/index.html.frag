@@ -29,15 +29,6 @@
       </div>
     </section>
     <section class="section">
-      <div class="wrap measure">
-        <h2>Quién escribe</h2>
-        <p>Nací en Estados Unidos. Después me hice ciudadano peruano por naturalización. Compré inmuebles antes de ese cambio, y otra vez después. He vivido en distintas partes del Perú. Conozco climas, comida y el ritmo de todos los días, no solo la carretera del aeropuerto.</p>
-        <p>No soy su abogado, ni su notario, ni su asesor de impuestos. No me presento como agente inmobiliario inscrito. Guío el proceso y hago el recorrido en el terreno. Para la compra misma trabajo con un abogado independiente y un notario independiente.</p>
-        <p>Centro el trabajo en lugares que conozco lo bastante como para caminarlos. No puedo recorrer en persona cada región del Perú. Si otra zona es la que corresponde, un contacto local de confianza hace la visita, y yo sigo en el expediente.</p>
-        <p>Estas páginas están en español: inicio, <a href="start.html">por dónde empezar</a>, <a href="scout.html">recorridos</a> y <a href="contact.html">contacto</a>. Las guías de lugares, la parte legal, el dinero y el diario siguen en inglés mientras termina la traducción. <a href="../places.html">Lugares (inglés)</a>.</p>
-      </div>
-    </section>
-    <section class="section">
       <div class="wrap">
         <h2>Tres maneras de llegar</h2>
         <div class="grid-3">
@@ -54,10 +45,104 @@
             <p>He comprado y vendido con ganancia porque conocía los rangos locales. Es experiencia, no un pronóstico. Revender es posible. No está garantizado. El valor puede bajar.</p>
           </article>
         </div>
-        <div class="note">
-          <h2>Honorarios</h2>
-          <p>No publico una tarifa ni una política de comisión. El alcance está en la página de servicios, por ahora en inglés: <a href="../services.html">Services</a>. El honorario se cotiza después de un ingreso corto, cuando están claros la región y el trabajo.</p>
-          <p><a class="btn" href="contact.html">Enviar el ingreso</a></p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap measure">
+        <h2>Quién escribe</h2>
+        <p>Nací en Estados Unidos. Después me hice ciudadano peruano por naturalización. Compré inmuebles antes de ese cambio, y otra vez después. He vivido en distintas partes del Perú. Conozco climas, comida y el ritmo de todos los días, no solo la carretera del aeropuerto.</p>
+        <p>No soy su abogado, ni su notario, ni su asesor de impuestos. No me presento como agente inmobiliario inscrito. Guío el proceso y hago el recorrido en el terreno. Para la compra misma trabajo con un abogado independiente y un notario independiente.</p>
+        <p>Centro el trabajo en lugares que conozco lo bastante como para caminarlos. No puedo recorrer en persona cada región del Perú. Si otra zona es la que corresponde, un contacto local de confianza hace la visita, y yo sigo en el expediente para que el criterio no baje.</p>
+        <p><a href="about.html">Qué hago, y qué no voy a hacer</a></p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <h2>El camino</h2>
+        <div class="grid-3">
+          <article class="card">
+            <p class="tag">1</p>
+            <h3><a href="start.html">Entender la vida</a></h3>
+            <p>Presupuesto, meses en el país, calor, altura, español, internet, y si conviene alquilar primero.</p>
+          </article>
+          <article class="card">
+            <p class="tag">2</p>
+            <h3><a href="places.html">Elegir un tipo de lugar</a></h3>
+            <p>Lima, la costa norte, Arequipa, Cusco y el Valle Sagrado, la selva alta, Iquitos, Cajamarca y las ciudades altas.</p>
+          </article>
+          <article class="card">
+            <p class="tag">3</p>
+            <h3><a href="find.html">Encontrarlo y caminarlo</a></h3>
+            <p>Casi todo el mercado no está en un portal. El <a href="scout.html">recorrido</a> es el centro de lo que ofrezco.</p>
+          </article>
+          <article class="card">
+            <p class="tag">4</p>
+            <h3><a href="legal.html">Papeles, y después el notario</a></h3>
+            <p>Título, quién tiene que firmar, la regla de los 50 km de frontera, y una compra que se pueda inscribir.</p>
+          </article>
+          <article class="card">
+            <p class="tag">5</p>
+            <h3><a href="money.html">El dinero, con los ojos abiertos</a></h3>
+            <p>Costos de cierre, el rastro bancario y los impuestos que todavía debe en su país. En esa página hay una calculadora ilustrativa.</p>
+          </article>
+          <article class="card">
+            <p class="tag">6</p>
+            <h3><a href="after.html">Después de las llaves</a></h3>
+            <p>Visitas de un guardián, obra, servicios, y aprender a ser vecino. Comprar no da residencia.</p>
+          </article>
         </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <h2>Herramientas antes de conversar</h2>
+        <div class="grid-2">
+          <article class="card clay">
+            <h3><a href="quiz.html">Cuestionario de regiones</a></h3>
+            <p>Calor, humedad, altura, lluvia, ruido, hospitales, y si quiere vivir ahí o guardar terreno. Apunta a las notas de región. No se guarda nada.</p>
+          </article>
+          <article class="card">
+            <h3><a href="money.html#calculator">Ilustración de costos de cierre</a></h3>
+            <p>Alcabala al 3% sobre un monto exento que usted mismo escribe, más estimados de honorarios. Está marcada como ilustración, no como cotización.</p>
+          </article>
+          <article class="card">
+            <h3><a href="checklist.html">Lista para imprimir</a></h3>
+            <p>Registro, firmantes, municipio, el lote físico y el rastro del dinero. Guárdela como PDF desde el navegador.</p>
+          </article>
+          <article class="card">
+            <h3><a href="glossary.html">Palabras del inmueble</a></h3>
+            <p>Partida, gravámenes, arras, garúa, huaico, y el resto de las palabras que usa este sitio.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap grid-2">
+        <div>
+          <h2>Lea esto antes de un aviso</h2>
+          <ul>
+            <li><a href="journal/mistakes.html">Errores que cometen los extranjeros</a></li>
+            <li><a href="journal/cheap.html">Cómo se ve de verdad una propiedad barata</a></li>
+            <li><a href="journal/altitude.html">La altura, antes de reservar Cusco</a></li>
+            <li><a href="journal/listings.html">Por qué tantos inmuebles no están en internet</a></li>
+          </ul>
+          <p>Los recorridos en video forman parte de una visita, y son el complemento previsto de este diario. No incrusto videos que no he publicado.</p>
+        </div>
+        <div>
+          <h2>Confianza, con los huecos marcados</h2>
+          <div class="ph" role="img" aria-label="Espacio reservado para una foto tomada en una visita"><span>Foto por colocar: una visita, no un retrato</span></div>
+          <p class="fine">Se reemplaza con una foto real de una visita. No publico una imagen de stock ni invento una cara.</p>
+          <blockquote class="quote">
+            <p>[Testimonio: palabras de un cliente, con permiso. Reemplace este espacio.]</p>
+            <footer>— [Nombre, país]</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap note">
+        <h2>Honorarios</h2>
+        <p>No he publicado un tarifario ni una política de comisión. <a href="services.html">Los servicios</a> describen el alcance. El honorario se cotiza después de un ingreso corto, cuando están claros la región y el trabajo.</p>
+        <p><a class="btn" href="contact.html">Enviar el ingreso</a></p>
       </div>
     </section>
