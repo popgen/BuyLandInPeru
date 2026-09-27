@@ -1,0 +1,230 @@
+    <header class="page-hero">
+      <div class="wrap">
+        <p class="kicker">Choosing where to live</p>
+        <h1>Places, as a practical orientation</h1>
+        <p class="lede">I have lived in various parts of Peru. These notes are how a place behaves, not a claim that I spent a counted number of years in each city. Flight schedules, road works, and hospital names change. Confirm them when a town is on your short list.</p>
+      </div>
+    </header>
+
+    <div class="wrap with-side">
+      <nav class="toc" aria-label="On this page">
+        <a href="#climate">Climate people miss</a>
+        <a href="#lima">Lima</a>
+        <a href="#north-coast">Northern beaches</a>
+        <a href="#arequipa">Arequipa</a>
+        <a href="#cusco">Cusco</a>
+        <a href="#sacred-valley">Sacred Valley</a>
+        <a href="#selva-alta">Selva alta</a>
+        <a href="#oxapampa">Oxapampa</a>
+        <a href="#iquitos">Iquitos</a>
+        <a href="#cajamarca">Cajamarca</a>
+        <a href="#huancayo">Huancayo</a>
+        <a href="#puno">Puno</a>
+      </nav>
+      <div>
+        <article id="climate" class="region">
+          <p class="kicker">Read this once</p>
+          <h2>Climate and ground that listings skip</h2>
+          <p><strong><span lang="es">Garúa</span>.</strong> Lima’s winter, roughly May through October, is gray drizzle and damp cloud, not a rainy season. Houses feel cold because they are built for summer. Summer, roughly December through April, is when the sky opens and the coast is the reason people moved there.</p>
+          <p><strong>Jungle roads.</strong> In the <span lang="es">selva</span>, the rainy months can turn a “one hour” track into a walk. If you need the property in February, see it in February, or accept that you have not seen it.</p>
+          <p><strong>El Niño.</strong> The north coast floods in strong El Niño years. Rivers move, beach towns take damage, and a dry January is not proof about the next one. I do not predict the cycle. I do ask whether the lot sits in a flood path.</p>
+          <p><strong><span lang="es">Huaicos</span>.</strong> In the Andes, a dry ravine in July can run with mud and rock in the rains. Do not buy the pretty floor of a <span lang="es">quebrada</span> because the day you visited was sunny.</p>
+          <p><strong>Earthquakes.</strong> Peru sits on a subduction coast. Seismic risk is normal, especially near the ocean, and it is not zero in the highlands. How the building was made matters as much as the view. Informal <span lang="es">autoconstrucción</span> is common. An engineer’s involvement is a fact to check, not a decoration.</p>
+          <p>Video walks of these places are part of <a href="scout.html">scouting</a>, and they are a planned part of the <a href="journal.html">journal</a>. I am not pretending a film already exists on this page.</p>
+        </article>
+
+        <article id="lima" class="region">
+          <p class="kicker">Coast · sea level · a category, not a ranking</p>
+          <h2>Lima</h2>
+          <p>Lima is a string of districts with different prices, cliffs, and commutes, not one neighborhood called Lima. I will not rank every district on a website. Miraflores, Barranco, and San Isidro are the names foreigners already know: more services, higher prices, more English in cafés, and more traffic and tourism. Inland districts can be quieter and less expensive, and “less expensive” in Lima is still not an 8×20 lot for a few thousand dollars.</p>
+          <p>The climate is mild and dry of real rain, with the gray <span lang="es">garúa</span> winter above. Food is the country’s deep end: markets, <span lang="es">menús</span>, ceviche, and the range from a residential chicken shop to a long lunch. The pace is a large city. Safety, in plain terms, is uneven by district and by hour. Petty theft on streets and in taxis is the ordinary problem people meet. Violent crime is not the daily story of most residential blocks, and it is not zero. I will not publish a fake safety score.</p>
+          <p>Cost of living is the highest of the options on this page for rent, restaurants, and imported habits, and it can still be moderate if you shop the way residents shop. Private health care is the best-concentrated in the country. Jorge Chávez is the international airport. Spanish matters less in a few coastal districts than it does in a jungle town, and you still cannot buy carefully without it or without a translator you trust.</p>
+          <h3>A day there</h3>
+          <p class="day">You wake to flat gray light for a large part of the year. Breakfast is bread and coffee, or a juice on the way to a desk. If you work online, the question is the cable in the building, not the weather. Lunch is still the main meal. The ocean is close only if your district actually touches it. Many do not, and a listing that says Lima can mean a long ride to the airport in traffic. Evening cools off. The noise is buses and horns, or the <span lang="es">malecón</span> if you paid for it. In summer the gray lifts and the parks fill.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>Formal districts are on the network. Many houses still keep a tank, because pressure is not a promise.</dd></div>
+            <div><dt>Power</dt><dd>Generally stable in established neighborhoods. Ask about the building, not the city.</dd></div>
+            <div><dt>Internet</dt><dd>Fiber is common in established districts and missing in new informal edges. I test the line that is installed.</dd></div>
+            <div><dt>Roads</dt><dd>Traffic is the constraint. Rain is rarely the one. Seismic design of the building is the ground question.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Major private hospitals are in the city. The international airport is in Callao, and the drive is a traffic question.</dd></div>
+          </dl>
+        </article>
+
+        <article id="north-coast" class="region">
+          <p class="kicker">Coast · heat · El Niño</p>
+          <h2>Northern beaches: Máncora, Punta Sal, Huanchaco</h2>
+          <p>These are not the same town. Máncora, in Piura, is the known surf and party strip. In season the nights are loud. Out of season it can feel like a small beach town that is waiting. Punta Sal, in Tumbes, is quieter and closer to Ecuador. Huanchaco, next to Trujillo, is a working beach town with a fishing tradition, more daily life, and less of the resort poster.</p>
+          <p>Heat is the climate. Winter is softer than people fear and summer is serious. Food is seafood, <span lang="es">ceviche</span>, and, inland of Trujillo, goat and rice. The pace follows tourists in Máncora and follows neighbors in Huanchaco. Petty theft happens where visitors are obvious. I would not describe these towns as dangerous by default, and I would not describe a dark road between them as casual.</p>
+          <p>Day-to-day prices sit below Lima’s beach districts and above a sierra market town, especially in high season. A clinic in the beach village is not a hospital. Serious care is in Piura, Tumbes, or Trujillo, and those distances matter at night. Airports exist at Piura, Tumbes, Talara, and Trujillo, with schedules that change. None of them is Jorge Chávez.</p>
+          <p class="warn">The far north is where the 50 km border rule starts to matter. A town name is not a measurement. Punta Sal is in Tumbes. Have a lawyer check the exact coordinates before you get attached. See <a href="legal.html#border">the border rule</a>.</p>
+          <h3>A day there</h3>
+          <p class="day">Heat by mid-morning. You plan errands early. Lunch is the long part of the day, often fish. If you are in Máncora in season, the afternoon is the beach and the night is music you did not ask for. In Huanchaco the boats and the town continue whether or not a flight of visitors landed. In a strong rain year the question is not the sunset. It is where the water went on the street behind the house.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>Town systems exist and strain in season. A tank is normal. Ask who maintains it.</dd></div>
+            <div><dt>Power</dt><dd>Connected in town. Storms and informal edges are less boring.</dd></div>
+            <div><dt>Internet</dt><dd>Workable in town centers. Do not assume a beach lot has fiber.</dd></div>
+            <div><dt>Roads</dt><dd>The Pan-American highway is the spine. El Niño years damage it and the side streets.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Regional cities, not the sand itself. Confirm the night drive, not the map distance.</dd></div>
+          </dl>
+        </article>
+
+        <article id="arequipa" class="region">
+          <p class="kicker">South · about 2,300 m · dry</p>
+          <h2>Arequipa</h2>
+          <p>Arequipa is a real city with a walkable center, volcanoes on the horizon, and a civic pride you feel in the food. Days are often sunny and sharp. Nights cool off. The rainy season is shorter and lighter than in Cusco. <span lang="es">Rocoto relleno</span>, <span lang="es">adobo</span>, and a long lunch in a <span lang="es">picantería</span> are the table, not a show for visitors.</p>
+          <p>The pace is city-sized without Lima’s sprawl. You can walk the center. Residential neighborhoods are ordinary Peruvian life, which is what you want if you are not shopping for a tour. Safety is the usual urban mix: watch bags in crowded places, and do not invent a paradise from a plaza photo.</p>
+          <p>Cost of living is generally easier than central Lima and heavier than a small highland town. Private clinics and a serious hospital network make this the medical hub of the south. The airport has commercial flights. At about 2,300 meters, some people feel nothing and some people should not shrug. Read <a href="journal/altitude.html">altitude</a>.</p>
+          <h3>A day there</h3>
+          <p class="day">Sun on stone in the morning. You walk for bread or to a market. Work happens indoors because the noon light is strong, not because of rain. Lunch is hot food and a long pause. Late afternoon is errands before the temperature drops. The volcanoes are there whether you look or not. In the wet weeks the sky finally acts like weather, and then it goes back to clear.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>Urban network in the city. Pressure still varies. Tanks are common in houses.</dd></div>
+            <div><dt>Power</dt><dd>Reliable by provincial standards. Ask about the individual building.</dd></div>
+            <div><dt>Internet</dt><dd>Fiber in much of the city. Thin at the edge and in the countryside.</dd></div>
+            <div><dt>Roads</dt><dd>The city is drivable. Regional roads can suffer in the broader southern rains. Seismic construction still matters.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Both are in the city. This is why people in smaller southern towns treat Arequipa as the backup plan.</dd></div>
+          </dl>
+        </article>
+
+        <article id="cusco" class="region">
+          <p class="kicker">Andes · about 3,400 m in the center</p>
+          <h2>Cusco</h2>
+          <p>The center is beautiful and it is a tourist machine. Neighborhoods away from the plaza are where a life would actually sit, at a slightly different altitude and a very different noise level. The dry months, roughly May to August, are clear and cold at night. The rainy months bring afternoon storms, muddy hills, and green hillsides. Food in markets is soup, corn, and a set lunch. Restaurants on the plaza are priced for someone who is leaving on Thursday.</p>
+          <p>Pace in the center is retail. Pace ten minutes away can be a residential street with a bakery. Petty theft is the tourist-zone problem. I do not treat the whole city as unsafe, and I do not treat a dark lane as a postcard. Cost of living splits the same way: local markets are reasonable, and anything sold in English costs extra. That split is also how property is priced.</p>
+          <p>There are clinics and a regional hospital. Complicated cases and anyone who is truly sick from altitude often end up aimed at Lima. The airport is in the city, which is a gift, and the landing itself is the altitude test. If you want to live here, plan a long stay before you buy. A weekend is how people make the mistake.</p>
+          <h3>A day there</h3>
+          <p class="day">The morning is cold and bright in the dry season, or cold and wet in the rains. You walk slowly because the air is thinner, even after you think you have adjusted. Coffee, then a market. If you work, you work in the middle of the day and you do not schedule your hardest thinking for the first forty-eight hours. Lunch is the meal that keeps people upright. Evening is layers. In the center you hear bars. In a residential street you hear a television and a dog. In the rainy months the afternoon can simply stop.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>City network, with the usual tank habit. Hillside settlements are less formal.</dd></div>
+            <div><dt>Power</dt><dd>Adequate in town. Storms interrupt more than they do on the dry coast.</dd></div>
+            <div><dt>Internet</dt><dd>Fiber exists in town. Confirm the building. The valley and the hills are another conversation.</dd></div>
+            <div><dt>Roads</dt><dd>Rain, landslides, and festival crowds. The airport road is not the road to a rural lot.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Both in the city. Altitude sickness fills waiting rooms in high season. Evacuation to Lima is the plan for worse.</dd></div>
+          </dl>
+        </article>
+
+        <article id="sacred-valley" class="region">
+          <p class="kicker">Andes · lower than Cusco, still high</p>
+          <h2>The Sacred Valley</h2>
+          <p>Urubamba, Yucay, Pisac, Ollantaytambo, and the towns between them are agricultural valleys with tourism laid on top. Elevations are often around 2,800 meters, sometimes higher in the side towns. That is kinder than Cusco’s plaza and it is still a high valley. The river is the beauty and the risk. A flat green field can be a flood field.</p>
+          <p>Food follows the market and the corn. The pace is tractors and school runs, plus tour buses at the famous points. Evenings are quieter than Cusco if you are not next to a weekend venue. English shows up in owner circles and in restaurants. Daily life with neighbors is Spanish. Costs sit in a wide band: a local house is one market, and a view sold to foreigners is another.</p>
+          <p>Clinics are limited. Cusco is the hospital trip, and Lima is the next one. The airport is Cusco’s, then a road that is easy in the dry months and slower when the mountain misbehaves.</p>
+          <h3>A day there</h3>
+          <p class="day">Light on the fields early. You hear animals and, depending on the street, a workshop. The town handles school and the market in the morning. Midday is hot in the sun and cool in the shade. If a festival is on, the street belongs to it. If it is an ordinary Wednesday, people are working. In the rains the river looks more like a river, and some side roads become a reason to stay home.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>Town systems and irrigation exist. A house can still depend on a tank, a spring, or a neighbor’s ditch. Ask which.</dd></div>
+            <div><dt>Power</dt><dd>Towns are connected. Outlying parcels may not be, or may be informal.</dd></div>
+            <div><dt>Internet</dt><dd>Improving in the towns. A field often means mobile data or satellite, plus power to run it.</dd></div>
+            <div><dt>Roads</dt><dd>The valley road is the spine. Side access and flood paths need eyes, not a pin on a map.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Cusco for both. Know the night drive.</dd></div>
+          </dl>
+        </article>
+
+        <article id="selva-alta" class="region">
+          <p class="kicker">High jungle · heat · rain</p>
+          <h2>Selva alta: Tarapoto, Lamas, Moyobamba</h2>
+          <p>This is the high jungle, not the floodplain of Iquitos. Tarapoto is the hub: mototaxis, heat, a real town, and weekends pointed at rivers and waterfalls. Lamas sits higher and cooler, a smaller place with a strong identity. Moyobamba is greener still, orchid country, slower. All three are hot and humid by coastal standards. Rain is a season and also a habit.</p>
+          <p>Food is plantain, <span lang="es">juane</span>, <span lang="es">tacacho</span>, smoked meat, and river fish. The pace is unhurried until it is a mototaxi. Spanish is the operating system. Safety is small-city: ordinary caution, and more care with anything that looks like a flash of cash. Costs are generally kinder than Lima or Cusco’s tourist core. Private hospital care is regional. Complicated medicine means a flight.</p>
+          <p>Tarapoto has a commercial airport. The road from the coast exists and it is a long mountain crossing, not an afternoon errand. Forest parcels around these cities are where people imagine the large end of the range I work with. Title, access in the rain, and who the community says owns the land are the actual purchase.</p>
+          <h3>A day there</h3>
+          <p class="day">You are sweaty before breakfast. The useful hours are early. Mototaxis are the bus system. Lunch is heavy and welcome. Shutters close against the glare. If it rains, it rains as an event, and the street runs water. Evening is when people sit outside because the walls hold the day’s heat. Insects are not a metaphor. A cheap house that ignores them will show you the bill in the wood.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>Urban networks in the cities, tanks everywhere practical. Rural systems can be hours per day.</dd></div>
+            <div><dt>Power</dt><dd>Town grids are real. Storms cut them. A rural lot may be a generator conversation.</dd></div>
+            <div><dt>Internet</dt><dd>Fiber in central Tarapoto and parts of the other towns. Rural and forest land: mobile or satellite, and only while the power lasts.</dd></div>
+            <div><dt>Roads</dt><dd>Paved spines, and side roads that change personality in the rains. See the place in the wet if you must use it then.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Tarapoto is the practical pair. Lamas and Moyobamba add road time.</dd></div>
+          </dl>
+        </article>
+
+        <article id="oxapampa" class="region">
+          <p class="kicker">Cloud forest · cooler · rain</p>
+          <h2>Oxapampa</h2>
+          <p>Oxapampa is still <span lang="es">selva alta</span>, and it does not feel like Tarapoto. The valley is higher, often around 1,800 meters, with cloud, coffee, dairy, and a town whose founders came from central Europe. Pozuzo is the smaller relative down the road. It is cooler, wetter, and greener. Mold is a housing issue, not a housekeeping insult.</p>
+          <p>Food leans to dairy, river trout, and a mix of highland and jungle plates. The pace is a provincial valley. Spanish is daily life, with a local history you will hear if you stay. Costs are moderate. Health care is a local hospital at provincial scale. Lima is a long road, not a quick flight from the plaza.</p>
+          <h3>A day there</h3>
+          <p class="day">Mist in the morning, or a hard rain that makes the decision for you. You walk to a bakery or a market in a jacket. The day is green to the point of being dark in the trees. People are doing farm and town errands, not performing a jungle. By afternoon you know whether the road you need is the road you have. Night is quiet if you are off the highway, and damp enough that a badly built closet becomes a science experiment.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>Town supply plus a lot of rain. Drainage matters more than scarcity.</dd></div>
+            <div><dt>Power</dt><dd>Connected in town. Storm cuts happen. Rural valleys vary.</dd></div>
+            <div><dt>Internet</dt><dd>Possible in town, optimistic on a hillside. Satellite is the honest backup for remote work, if the power is honest too.</dd></div>
+            <div><dt>Roads</dt><dd>The road from Lima is long, foggy, and the reason people either commit or do not. Rain makes it longer.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Local hospital for ordinary care. Serious care and flights mean Lima or another city, by road first.</dd></div>
+          </dl>
+        </article>
+
+        <article id="iquitos" class="region">
+          <p class="kicker">Amazon · river and air · no road out</p>
+          <h2>Iquitos</h2>
+          <p>Iquitos is a city on the river. You arrive by air or by water. There is no road that connects it to the rest of Peru. That single fact organizes everything else: freight, friends, a medical emergency, a bag of cement. The climate is hot, wet, and steady about being both. Flood season changes which streets and which stilt houses are living in the water.</p>
+          <p>Food is Amazonian: plantain, river fish, <span lang="es">juane</span>, fruits that do not ship well. The pace is motocarros and river time. It is a city, with neighborhoods, universities, and noise, not a lodge. Speak Spanish. Cost of living can look low until you import a habit, because almost everything that is not local came by boat or plane. There is a regional hospital. Complex cases are hard precisely because you cannot drive out. Parts of Loreto lie inside the 50 km border zone even when the city is the postcard. Measure the lot.</p>
+          <h3>A day there</h3>
+          <p class="day">Heat from the start. A motocarro to the market. The river is commerce, not scenery, for the people using it. Rain arrives as a wall and then the street steams. You drink cold things and you do not schedule a walk at noon. At night the city is lively in its own circuits. If you live on the flood edge, the season tells you which floor you are using. Quiet isolation is available outside the city, and so is the absence of a hospital.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>Urban service exists and people still store water. Quality and continuity are local facts to test.</dd></div>
+            <div><dt>Power</dt><dd>The city is electrified and outages are part of the culture of backup batteries.</dd></div>
+            <div><dt>Internet</dt><dd>Variable. Usable in much of the city, frustrating in a downpour, and a project outside it.</dd></div>
+            <div><dt>Roads</dt><dd>Inside the city only, plus rivers. Rainy season is a boat conversation as much as a street one.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Both in the city. The airport is the exit. That is the whole transport plan.</dd></div>
+          </dl>
+        </article>
+
+        <article id="cajamarca" class="region">
+          <p class="kicker">Northern highlands · about 2,700 m</p>
+          <h2>Cajamarca</h2>
+          <p>Cajamarca is a highland city of dairy farms, stone, carnival, and a colder rain than the coast expects. About 2,700 meters is enough to respect and less brutal than Puno. The dry season is clearer. The wet season is green, muddy, and the reason rural roads need a second look.</p>
+          <p>Food is cheese, <span lang="es">manjar</span>, potatoes, and a hot table. The pace is provincial and proud. It is not an expat stage. Spanish is how you buy bread and how you buy land. Costs are generally friendly. Health care is a regional hospital, not a capital. The airport makes it more reachable than the map suggests, on a schedule you should check rather than memorize from me.</p>
+          <h3>A day there</h3>
+          <p class="day">A cold morning and a jacket. The market is the event. If you have work, you do it while the light is up, because rain in season shortens the outdoor part of the day. Lunch is filling. People know each other. In carnival season the city is not trying to be convenient. On an ordinary week it is schools, dairies, and a plaza that empties when the rain starts.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>City network, rural springs and ditches. Confirm the house, especially storage.</dd></div>
+            <div><dt>Power</dt><dd>Urban service is normal. Countryside feeders trip in storms.</dd></div>
+            <div><dt>Internet</dt><dd>Fine for many city addresses. A farm is a test, not an assumption.</dd></div>
+            <div><dt>Roads</dt><dd>Rain and mountain grades. The airport helps. It does not flatten the region.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Both serve the city. Specialty care often means Trujillo or Lima.</dd></div>
+          </dl>
+        </article>
+
+        <article id="huancayo" class="region">
+          <p class="kicker">Central highlands · about 3,200 m</p>
+          <h2>Huancayo</h2>
+          <p>Huancayo is a commercial highland city in the Mantaro Valley, about 3,200 meters. People come for trade, the Sunday fair, universities, and a valley that is more lived-in than photographed. Nights are cold. The rainy season is when <span lang="es">huaicos</span> and road closures on the way to Lima stop being theoretical.</p>
+          <p>Food is highland: potatoes, <span lang="es">pachamanca</span> when there is a reason to dig a pit, and a serious soup. The pace is business. It is not a resort. Costs are moderate. Spanish is assumed. Health care is regional. The air connection is limited compared with Cusco or Arequipa. Many people still think of Lima as a road trip, and that road is the Central Highway, which closes.</p>
+          <h3>A day there</h3>
+          <p class="day">Cold air, then a city that is already selling something. You dress in layers you will take off by late morning if the sun is out. The valley is wide and agricultural at the edges. Lunch resets the altitude. In the rains you watch the hills, not only the sky, because the danger is often a slope above a road. Evening is early and indoor.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>Urban service with the highland tank habit. Rural canals are a separate legal question if you are buying fields.</dd></div>
+            <div><dt>Power</dt><dd>City grid. Storms and rural lines are less steady.</dd></div>
+            <div><dt>Internet</dt><dd>Usable in the city for most work. Test the specific street.</dd></div>
+            <div><dt>Roads</dt><dd>The road to Lima is famous and interruptible. Huaicos are the reason a dry-season visit lies.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Regional hospital in the city. Air service is not the main way in and out. Lima is the serious medical and flight connection, by a road that sometimes is not a road.</dd></div>
+          </dl>
+        </article>
+
+        <article id="puno" class="region">
+          <p class="kicker">Altiplano · about 3,800 m · border country</p>
+          <h2>Puno</h2>
+          <p>Puno is the high lake. About 3,800 meters is the daily fact: cold, thin air, a strong sun, and a cultural calendar that is not arranged for newcomers. Juliaca, nearby, is the commercial and airport town, lower by a little and rougher at the edges. The border with Bolivia is close enough that rural purchases need the 50 km question answered with coordinates, not with optimism.</p>
+          <p>Food is quinoa, trout, potatoes, and the older preserved foods of the altiplano. Appetites change at this height. The pace outside festival weeks is a highland city getting on with work. Spanish and, in many families, Aymara or Quechua. I do not offer a language I do not work in as if it were a service. Costs are generally lower than Cusco’s visitor economy. Health care is regional. Altitude illness is not a quaint first-day story at this elevation. Read the <a href="journal/altitude.html">essay</a> and talk to a doctor.</p>
+          <h3>A day there</h3>
+          <p class="day">You wake cold. The sun, when it arrives, is strong and does not mean the air is thick. Walking uphill is a meeting you scheduled with your lungs. The lake is enormous and the wind comes off it. Lunch is the meal you do not skip. In the rainy months the light turns and the roads outside town soften. At night the temperature drops hard. If you came from the coast last Tuesday, this is not the week you decide to buy.</p>
+          <h3>Infrastructure</h3>
+          <dl class="facts">
+            <div><dt>Water</dt><dd>City systems, and a dry-season logic that is different from the jungle. Confirm storage and what a rural parcel actually receives.</dd></div>
+            <div><dt>Power</dt><dd>Urban grid. Rural altiplano varies, and nights are when you notice.</dd></div>
+            <div><dt>Internet</dt><dd>Workable in town. A lakeshore field is a separate test.</dd></div>
+            <div><dt>Roads</dt><dd>Rain, altitude, and distance. Festival weeks fill transport.</dd></div>
+            <div><dt>Hospital and airport</dt><dd>Regional care in Puno. Commercial flights use Juliaca. Lima is the step up for serious medicine. The border zone is a legal fact sitting next to the map.</dd></div>
+          </dl>
+        </article>
+      </div>
+    </div>
