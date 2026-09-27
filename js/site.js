@@ -5,7 +5,7 @@
   if (msg && !msg.value) {
     try {
       var q = new URLSearchParams(location.search).get("quiz");
-      if (q) msg.value = q.slice(0, 4000) + "\n\nAnything else:\n";
+      if (q) msg.value = q.slice(0, 4000) + (document.documentElement.lang === "es" ? "\n\nAlgo más:\n" : "\n\nAnything else:\n");
     } catch (e) {}
   }
 
@@ -21,6 +21,29 @@
         t.hidden = !hit; if (hit) shown++;
       });
       empty.hidden = shown !== 0;
+    });
+  }
+
+  // Lightbox for zoomable photos
+  var zooms = document.querySelectorAll("a.zoom");
+  if (zooms.length && window.HTMLDialogElement) {
+    var es = document.documentElement.lang === "es";
+    var dlg = document.createElement("dialog");
+    dlg.className = "lightbox";
+    dlg.innerHTML = '<button type="button">' + (es ? "Cerrar" : "Close") + '</button><img alt=""><p></p>';
+    document.body.appendChild(dlg);
+    var big = dlg.querySelector("img"), cap = dlg.querySelector("p");
+    dlg.querySelector("button").addEventListener("click", function () { dlg.close(); });
+    dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+    Array.prototype.forEach.call(zooms, function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        var img = a.querySelector("img");
+        big.src = a.getAttribute("href"); big.alt = img ? img.alt : "";
+        var fc = a.parentNode.querySelector("figcaption");
+        cap.textContent = fc ? fc.textContent : (img ? img.alt : "");
+        dlg.showModal();
+      });
     });
   }
 })();

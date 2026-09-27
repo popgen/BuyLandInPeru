@@ -1,32 +1,28 @@
-PHOTO SLOTS — Buy Land In Peru
-================================
-Drop your photos into this "images" folder using EXACTLY these file names
-(lowercase, .jpg). Each one appears automatically on the pages listed.
-Until a photo is added, the site shows a green placeholder with a label.
+PHOTOS — Buy Land In Peru
+=========================
+How it works now
+- Your original photos stay here in /images exactly as you named them (underscores are fine).
+- The website uses smaller, web-sized copies in /images/web (made by Claude). Don't edit those by hand.
+- To add or replace a photo: drop it here and ask Claude to "process the new photos". Claude will
+  make the web copy and put it on the page.
+- The "construction progress" folder feeds the Build progress page (progress.html), in date order.
+- Tip: once the site is live, you can move the large originals out of the site folder to keep the
+  GitHub repo small. The website only needs /images/web.
 
-Tip: resize to about 1600-2000 px wide and save as JPG (under ~400 KB) so pages load fast.
+Still missing (the site shows a green placeholder until these exist)
+lucas_portrait.jpg       VERTICAL. Friendly portrait of you. About page + small round photo on every story.
+lucas_on_land.jpg        VERTICAL. You standing on your land. Home page, "Why I do this".
+flight_over_andes.jpg    HORIZONTAL. View from the plane over the Andes/jungle. Peru Is Closer story.
+scouting_video.jpg       HORIZONTAL. You filming a property with your phone. How It Works, step 2.
+small_plot.jpg           HORIZONTAL. A small plot in an edge-of-town development. Services page.
 
-File name                What to shoot                                   Used on
------------------------  ----------------------------------------------  ---------------------------------------
-lucas-portrait.jpg       Portrait of you (vertical works best)           About, byline on every story
-lucas-on-land.jpg        You standing on your land (vertical)            Home
-property-today.jpg       Wide shot of your property today                Home, Honest Version story
-first-day-land.jpg       The overgrown land when you first walked it     About, Honest Version story (header)
-fruit-trees.jpg          Mango / caimito / zapote trees                  Home, FAQ, Honest Version story
-house.jpg                Your house                                      About, What It Really Cost
-pool.jpg                 The pool                                        Home, About, What It Really Cost
-outdoor-kitchen.jpg      Outdoor kitchen / BBQ area                      Home, What It Really Cost
-chicken-coop.jpg         Chicken coop                                    About, What It Really Cost
-woodshop.jpg             Woodshop                                        About, What It Really Cost
-solar-panels.jpg         Your solar array                                Home, Property Prices story
-second-family.jpg        You with your second family (ask permission!)   About
-lamas-town.jpg           Lamas town / Plaza del Huayco                   About, FAQ
-lamas-hills.jpg          Rural land and hills around Lamas               Contact, FAQ, Property Prices story
-dirt-road.jpg            The red dirt road to your land                  Contact, FAQ
-mototaxi.jpg             A mototaxi on a dirt road                       Scouting story
-walking-borders.jpg      Walking a property's borders                    How It Works, Scouting story
-scouting-video.jpg       Filming a property on a scouting visit          How It Works
-conversation-seller.jpg  Talking with a seller or neighbor               How It Works
-neighbor-plot.jpg        The neighbor's plot next to your land           Deals story
-small-plot.jpg           A small plot in an edge-of-town development     Services
-flight-over-andes.jpg    View from the plane over the Andes / jungle     Peru Is Closer story
+Used on the site (thank you!)
+first_day_land 1-5, electricity 1-2, property_today 1-2, outdoor_kitchen 1-2, pool, fruit_trees,
+solar_panels, solar_setup, woodshop, chicken_coop, walkway_to_chicken_coop, second_family, lamas_town,
+lamas_hills, dirt_road, mototaxi, walking_borders, conversation_seller, neighbor_plot, and in the
+Photo gallery: beautiful_view, huge_mango, cacao 1-2, butterfly, grasshopper, chicken, empty_garden,
+hammock_relaxing, my_motokar.
+house.jpg (in construction progress) is used as the "house" photo too.
+
+Not used yet: the unnamed PXL_... photos.
+Give them a descriptive name if you want any of them in the gallery.

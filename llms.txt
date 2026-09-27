@@ -34,6 +34,10 @@ Key facts:
 - [Peru Is Closer Than You Think: Flight Times from the US](https://buylandinperu.com/stories/peru-closer-than-you-think.html): Miami to Lima is about 6 hours, the same as crossing the US. Flight times, prices and Lima's new Jorge Chávez airport terminal.
 - [Peru Property Prices 2026: The Data and the Reality](https://buylandinperu.com/stories/property-prices.html): Price per square meter in Lima, Tarapoto and beyond, why official data understates rural Peru, and what land near Lamas really sells for.
 
+## En español
+
+- [Comprar terreno en Perú (inicio en español)](https://buylandinperu.com/es/): Every page of the site is also available in Spanish under /es/.
+
 ## Optional
 
 - [Terms and disclaimer](https://buylandinperu.com/terms.html)
