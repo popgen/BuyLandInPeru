@@ -1,0 +1,32 @@
+PHOTO SLOTS — Buy Land In Peru
+================================
+Drop your photos into this "images" folder using EXACTLY these file names
+(lowercase, .jpg). Each one appears automatically on the pages listed.
+Until a photo is added, the site shows a green placeholder with a label.
+
+Tip: resize to about 1600-2000 px wide and save as JPG (under ~400 KB) so pages load fast.
+
+File name                What to shoot                                   Used on
+-----------------------  ----------------------------------------------  ---------------------------------------
+lucas-portrait.jpg       Portrait of you (vertical works best)           About, byline on every story
+lucas-on-land.jpg        You standing on your land (vertical)            Home
+property-today.jpg       Wide shot of your property today                Home, Honest Version story
+first-day-land.jpg       The overgrown land when you first walked it     About, Honest Version story (header)
+fruit-trees.jpg          Mango / caimito / zapote trees                  Home, FAQ, Honest Version story
+house.jpg                Your house                                      About, What It Really Cost
+pool.jpg                 The pool                                        Home, About, What It Really Cost
+outdoor-kitchen.jpg      Outdoor kitchen / BBQ area                      Home, What It Really Cost
+chicken-coop.jpg         Chicken coop                                    About, What It Really Cost
+woodshop.jpg             Woodshop                                        About, What It Really Cost
+solar-panels.jpg         Your solar array                                Home, Property Prices story
+second-family.jpg        You with your second family (ask permission!)   About
+lamas-town.jpg           Lamas town / Plaza del Huayco                   About, FAQ
+lamas-hills.jpg          Rural land and hills around Lamas               Contact, FAQ, Property Prices story
+dirt-road.jpg            The red dirt road to your land                  Contact, FAQ
+mototaxi.jpg             A mototaxi on a dirt road                       Scouting story
+walking-borders.jpg      Walking a property's borders                    How It Works, Scouting story
+scouting-video.jpg       Filming a property on a scouting visit          How It Works
+conversation-seller.jpg  Talking with a seller or neighbor               How It Works
+neighbor-plot.jpg        The neighbor's plot next to your land           Deals story
+small-plot.jpg           A small plot in an edge-of-town development     Services
+flight-over-andes.jpg    View from the plane over the Andes / jungle     Peru Is Closer story
