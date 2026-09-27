@@ -23,7 +23,7 @@
     bits: { sea: "se mantiene cerca del nivel del mar", alt: "encaja con su disposición a la altitud", hum: "la humedad está dentro de lo que eligió",
       heat: "el calor está dentro de lo que eligió", hosp: "la atención hospitalaria es buena aquí", intl: "el aeropuerto internacional está en la ciudad",
       fiber: "la fibra es realista en barrios consolidados", land: "los terrenos agrícolas y las parcelas grandes son parte del mercado local",
-      entry: "los lotes pequeños pueden empezar a precios bajos aquí", city: "los servicios diarios son de ciudad", none: "es la opción más cercana de la lista, con la advertencia de abajo" },
+      entry: "los lotes pequeños pueden empezar a precios bajos aquí", city: "los servicios diarios son de ciudad", none: "es la opción más cercana de la lista, con la advertencia de abajo", open: "usted está abierto a casi todo, así que es un buen lugar para empezar a leer" },
     cautions: {
       "selva-alta": "Calor, humedad, comején y caminos difíciles en temporada de lluvias. Los terrenos agrícolas y de bosque aquí son otro tipo de proyecto que un departamento en la ciudad, y el agua y la luz hay que verificarlas en el lugar.",
       "oxapampa": "Bosque nublado más fresco, lluvias intensas y una larga carretera desde Lima. Confirme el internet y el acceso a un hospital para el valle exacto.",
@@ -52,7 +52,7 @@
     bits: { sea: "it stays near sea level", alt: "it fits your openness to altitude", hum: "the humidity is within what you chose",
       heat: "the heat is within what you chose", hosp: "hospital care is strong here", intl: "the international airport is in the city",
       fiber: "fiber is realistic in established neighborhoods", land: "farmland and larger parcels are part of the local market",
-      entry: "small lots can start at low prices here", city: "daily services are city-scale", none: "it's the closest fit on the list, with the caution below" },
+      entry: "small lots can start at low prices here", city: "daily services are city-scale", none: "it's the closest fit on the list, with the caution below", open: "you're open to almost anything, so this is a good place to start reading" },
     cautions: {}, names: {}
   };
 
@@ -96,6 +96,7 @@
     var el = form.querySelector('input[name="' + name + '"]:checked');
     return el ? el.value : "";
   }
+  function num(name) { var v = val(name); return v === "" || v === "any" ? null : Number(v); }
   function labelFor(name) {
     var el = form.querySelector('input[name="' + name + '"]:checked');
     return el ? el.parentNode.textContent.trim() : "";
@@ -124,10 +125,11 @@
   function score(r) {
     var s = 20, alt = val("altitude"), isol = val("isolation"), health = val("health"), airport = val("airport"),
         internet = val("internet"), purpose = val("purpose"), budget = val("budget"), ptype = val("ptype");
-    s -= Math.abs(r.heat - Number(val("heat"))) * 3;
-    s -= Math.abs(r.humidity - Number(val("humidity"))) * 3;
-    s -= Math.abs(r.rain - Number(val("rain"))) * 2;
-    s -= Math.abs(r.noise - Number(val("noise"))) * 2;
+    // "any" (I'm open to anything!) means the question doesn't affect the score
+    if (num("heat") !== null) s -= Math.abs(r.heat - num("heat")) * 3;
+    if (num("humidity") !== null) s -= Math.abs(r.humidity - num("humidity")) * 3;
+    if (num("rain") !== null) s -= Math.abs(r.rain - num("rain")) * 2;
+    if (num("noise") !== null) s -= Math.abs(r.noise - num("noise")) * 2;
     if (alt === "sea" && r.alt === 2) s -= 6;
     if (alt === "sea" && r.alt >= 3) s -= 12;
     if (alt === "mid" && r.alt >= 3) s -= 8;
@@ -159,14 +161,16 @@
     var bits = [], alt = val("altitude");
     if (r.alt === 0 && alt === "sea") bits.push(L.bits.sea);
     if (r.alt >= 2 && alt !== "sea") bits.push(L.bits.alt);
-    if (r.humidity <= Number(val("humidity"))) bits.push(L.bits.hum);
-    if (r.heat <= Number(val("heat"))) bits.push(L.bits.heat);
+    if (num("humidity") !== null && r.humidity <= num("humidity")) bits.push(L.bits.hum);
+    if (num("heat") !== null && r.heat <= num("heat")) bits.push(L.bits.heat);
     if (val("health") === "major" && r.health === 2) bits.push(L.bits.hosp);
     if (val("airport") === "intl" && r.airport === 2) bits.push(L.bits.intl);
     if (val("internet") === "fiber" && r.internet === 2) bits.push(L.bits.fiber);
     if ((val("purpose") === "hold" || val("ptype") === "farm" || val("ptype") === "forest") && r.land) bits.push(L.bits.land);
     if (val("budget") === "entry" && r.entry) bits.push(L.bits.entry);
     if (val("isolation") === "city" && r.isol === 0) bits.push(L.bits.city);
+    var open = steps.filter(function (st) { var c = st.querySelector("input:checked"); return c && c.value === "any"; }).length;
+    if (!bits.length && open >= steps.length / 2) bits.push(L.bits.open);
     if (!bits.length) bits.push(L.bits.none);
     var t = bits.slice(0, 3).join("; ") + ".";
     return t.charAt(0).toUpperCase() + t.slice(1);

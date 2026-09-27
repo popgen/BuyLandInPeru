@@ -11,13 +11,12 @@ How it works now
 
 Still missing (the site shows a green placeholder until these exist)
 lucas_portrait.jpg       VERTICAL. Friendly portrait of you. About page + small round photo on every story.
-lucas_on_land.jpg        VERTICAL. You standing on your land. Home page, "Why I do this".
 flight_over_andes.jpg    HORIZONTAL. View from the plane over the Andes/jungle. Peru Is Closer story.
 scouting_video.jpg       HORIZONTAL. You filming a property with your phone. How It Works, step 2.
 small_plot.jpg           HORIZONTAL. A small plot in an edge-of-town development. Services page.
 
 Used on the site (thank you!)
-first_day_land 1-5, electricity 1-2, property_today 1-2, outdoor_kitchen 1-2, pool, fruit_trees,
+lucas_on_land, first_day_land 1-5, electricity 1-2, property_today 1-2, outdoor_kitchen 1-2, pool, fruit_trees,
 solar_panels, solar_setup, woodshop, chicken_coop, walkway_to_chicken_coop, second_family, lamas_town,
 lamas_hills, dirt_road, mototaxi, walking_borders, conversation_seller, neighbor_plot, and in the
 Photo gallery: beautiful_view, huge_mango, cacao 1-2, butterfly, grasshopper, chicken, empty_garden,
