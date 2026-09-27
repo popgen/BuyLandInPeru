@@ -431,3 +431,18 @@ footer a{color:var(--paper)}
 .lightbox button{position:fixed;top:1rem;right:1rem;font:700 1rem var(--display);background:var(--mango);border:0;border-radius:999px;padding:.5rem 1rem;cursor:pointer}
 .tl-item .zoom{display:inline-block;max-width:100%}
 .tl-item .zoom img{max-height:520px;width:auto;max-width:100%}
+
+/* small phones: keep logo, language switch and menu on one tidy row */
+.nav-right{flex:none}
+.brand{flex:0 1 auto;overflow:hidden}
+@media (max-width:480px){
+  .nav .wrap{gap:.6rem}
+  .brand{font-size:.98rem;gap:.4rem}
+  .brand svg{width:22px;height:22px}
+  .nav-right{gap:.45rem}
+  .lang{font-size:.72rem;border-width:1.5px}
+  .lang span,.lang a{padding:.42rem .5rem}
+  .menu summary{padding:.4rem .75rem;font-size:.88rem;border-width:1.5px}
+}
+@media (max-width:374px){.brand{font-size:.9rem}.nav .wrap{width:calc(100% - 1.5rem)}}
+@media (max-width:340px){.brand svg{display:none}.brand{font-size:.84rem}}
