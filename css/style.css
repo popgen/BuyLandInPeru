@@ -296,3 +296,14 @@ footer a{color:var(--paper)}
 .foot-email{font-family:var(--display);font-weight:700;color:var(--mango)!important;text-decoration:none}
 .fine{opacity:.65;max-width:90ch;font-size:.88rem}
 .fine p{margin:0 0 .6rem}
+
+/* contact form */
+.contact-form{margin-top:1.5rem;max-width:560px}
+.field{margin-bottom:1.3rem}
+.field label{display:block;font-family:var(--display);font-weight:700;margin-bottom:.4rem}
+.field input,.field textarea{width:100%;font:inherit;font-size:1.05rem;color:var(--selva);background:var(--paper);border:2px solid var(--line);border-radius:6px;padding:.75rem .9rem}
+.field textarea{resize:vertical;min-height:9rem}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--canopy);box-shadow:0 0 0 3px rgba(46,107,69,.18)}
+.hint{font-size:.92rem;opacity:.72;margin:.4rem 0 0}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.contact-form button{cursor:pointer}
