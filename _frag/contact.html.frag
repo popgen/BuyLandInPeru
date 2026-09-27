@@ -2,12 +2,14 @@
       <div class="wrap">
         <p class="kicker">Intake</p>
         <h1>Tell me what you are actually trying to do</h1>
-        <p class="lede">This form builds an email. It does not store anything on a server. It sends to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>.</p>
+        <p class="lede">This form emails your note to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a> and sends a short thank-you back to you. It is not stored as a page on this site.</p>
       </div>
     </header>
     <section class="section">
       <div class="wrap">
-        <form id="intake" data-subject="Buy Land in Peru intake" data-copied="Copied">
+        <div id="form-status" class="note" tabindex="-1" hidden></div>
+        <form id="intake" method="post" action="contact-send.php" accept-charset="UTF-8">
+          <input type="hidden" name="lang" value="en">
           <div class="form-grid two">
             <label for="name">Name<input id="name" name="name" type="text" required autocomplete="name"></label>
             <label for="email">Your email<input id="email" name="email" type="email" required autocomplete="email"></label>
@@ -96,27 +98,16 @@
           <label for="notes">Anything else
             <textarea id="notes" name="notes" placeholder="Timing, health limits you want me to know, or a property you have already seen."></textarea>
           </label>
-          <button class="btn" type="submit">Build the email</button>
+          <button class="btn" type="submit">Send the note</button>
         </form>
-        <div id="intake-preview" class="preview" hidden>
-          <h2>Your note</h2>
-          <p id="intake-note"></p>
-          <pre id="intake-text"></pre>
-          <p class="actions">
-            <a id="intake-mail" class="btn" hidden href="mailto:info@buylandinperu.com">Open email</a>
-            <button id="intake-copy" class="btn secondary" type="button" hidden>Copy text</button>
-          </p>
-        </div>
         <h2>If you would rather paste</h2>
         <p>Send the same topics, in your own order, to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>. Include your country, budget, months per year, purpose, climate limits, Spanish, and whether you can visit.</p>
         <div id="book-meet">
           <h2>Schedule a Google Meet</h2>
           <p class="actions">
-            <a data-book-link class="btn" hidden>Schedule a Google Meet</a>
-            <button data-book-wait class="btn" type="button" aria-describedby="book-meet-note">Schedule a Google Meet</button>
+            <a data-book-link class="btn" href="https://calendar.app.google/h65oLNrYFP7pGCRKA" target="_blank" rel="noopener noreferrer">Schedule a Google Meet</a>
           </p>
-          <p id="book-meet-note" data-book-pending>Scheduling opens once the Google Calendar appointment link is added.</p>
-          <p data-book-detail hidden>The meeting is added to the owner's Google Calendar and includes a Google Meet link when they configured it that way.</p>
+          <p>The meeting is added to the owner's Google Calendar and includes a Google Meet link when they configured it that way.</p>
         </div>
       </div>
     </section>

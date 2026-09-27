@@ -4,10 +4,60 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact — Buy Land in Peru</title>
-  <meta name="description" content="Send the discovery questions. Fees are quoted after intake.">
+  <meta name="description" content="Send a note about buying property in Peru. You get a thank-you with a link to book a Google Meet. Fees are quoted after intake, when the work is clear.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://buylandinperu.com/contact.html">
+  <link rel="alternate" hreflang="en" href="https://buylandinperu.com/contact.html">
+  <link rel="alternate" hreflang="es" href="https://buylandinperu.com/es/contact.html">
+  <link rel="alternate" hreflang="x-default" href="https://buylandinperu.com/contact.html">
   <meta property="og:title" content="Contact — Buy Land in Peru">
-  <meta property="og:description" content="Send the discovery questions. Fees are quoted after intake.">
+  <meta property="og:description" content="Send a note about buying property in Peru. You get a thank-you with a link to book a Google Meet. Fees are quoted after intake, when the work is clear.">
+  <meta property="og:url" content="https://buylandinperu.com/contact.html">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
+      "name": "Buy Land in Peru",
+      "url": "https://buylandinperu.com/",
+      "email": "info@buylandinperu.com",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Peru"
+      },
+      "availableLanguage": [
+        "English",
+        "Spanish"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://buylandinperu.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://buylandinperu.com/contact.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,12 +89,14 @@
       <div class="wrap">
         <p class="kicker">Intake</p>
         <h1>Tell me what you are actually trying to do</h1>
-        <p class="lede">This form builds an email. It does not store anything on a server. It sends to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>.</p>
+        <p class="lede">This form emails your note to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a> and sends a short thank-you back to you. It is not stored as a page on this site.</p>
       </div>
     </header>
     <section class="section">
       <div class="wrap">
-        <form id="intake" data-subject="Buy Land in Peru intake" data-copied="Copied">
+        <div id="form-status" class="note" tabindex="-1" hidden></div>
+        <form id="intake" method="post" action="contact-send.php" accept-charset="UTF-8">
+          <input type="hidden" name="lang" value="en">
           <div class="form-grid two">
             <label for="name">Name<input id="name" name="name" type="text" required autocomplete="name"></label>
             <label for="email">Your email<input id="email" name="email" type="email" required autocomplete="email"></label>
@@ -133,27 +185,16 @@
           <label for="notes">Anything else
             <textarea id="notes" name="notes" placeholder="Timing, health limits you want me to know, or a property you have already seen."></textarea>
           </label>
-          <button class="btn" type="submit">Build the email</button>
+          <button class="btn" type="submit">Send the note</button>
         </form>
-        <div id="intake-preview" class="preview" hidden>
-          <h2>Your note</h2>
-          <p id="intake-note"></p>
-          <pre id="intake-text"></pre>
-          <p class="actions">
-            <a id="intake-mail" class="btn" hidden href="mailto:info@buylandinperu.com">Open email</a>
-            <button id="intake-copy" class="btn secondary" type="button" hidden>Copy text</button>
-          </p>
-        </div>
         <h2>If you would rather paste</h2>
         <p>Send the same topics, in your own order, to <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>. Include your country, budget, months per year, purpose, climate limits, Spanish, and whether you can visit.</p>
         <div id="book-meet">
           <h2>Schedule a Google Meet</h2>
           <p class="actions">
-            <a data-book-link class="btn" hidden>Schedule a Google Meet</a>
-            <button data-book-wait class="btn" type="button" aria-describedby="book-meet-note">Schedule a Google Meet</button>
+            <a data-book-link class="btn" href="https://calendar.app.google/h65oLNrYFP7pGCRKA" target="_blank" rel="noopener noreferrer">Schedule a Google Meet</a>
           </p>
-          <p id="book-meet-note" data-book-pending>Scheduling opens once the Google Calendar appointment link is added.</p>
-          <p data-book-detail hidden>The meeting is added to the owner's Google Calendar and includes a Google Meet link when they configured it that way.</p>
+          <p>The meeting is added to the owner's Google Calendar and includes a Google Meet link when they configured it that way.</p>
         </div>
       </div>
     </section>

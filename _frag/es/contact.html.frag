@@ -2,12 +2,14 @@
       <div class="wrap">
         <p class="kicker">Ingreso</p>
         <h1>Cuénteme qué está tratando de hacer</h1>
-        <p class="lede">Este formulario arma un correo. No guarda nada en un servidor. Se envía a <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>.</p>
+        <p class="lede">Este formulario envía su nota a <a href="mailto:info@buylandinperu.com">info@buylandinperu.com</a> y le manda un agradecimiento breve. No se guarda como una página en este sitio.</p>
       </div>
     </header>
     <section class="section">
       <div class="wrap">
-        <form id="intake" data-subject="Consulta Buy Land in Peru" data-copied="Copiado">
+        <div id="form-status" class="note" tabindex="-1" hidden></div>
+        <form id="intake" method="post" action="../contact-send.php" accept-charset="UTF-8">
+          <input type="hidden" name="lang" value="es">
           <div class="form-grid two">
             <label for="name">Nombre<input id="name" name="name" type="text" required autocomplete="name"></label>
             <label for="email">Su correo<input id="email" name="email" type="email" required autocomplete="email"></label>
@@ -96,25 +98,14 @@
           <label for="notes">Algo más
             <textarea id="notes" name="notes"></textarea>
           </label>
-          <button class="btn" type="submit">Armar el correo</button>
+          <button class="btn" type="submit">Enviar la nota</button>
         </form>
-        <div id="intake-preview" class="preview" hidden>
-          <h2>Su nota</h2>
-          <p id="intake-note"></p>
-          <pre id="intake-text"></pre>
-          <p class="actions">
-            <a id="intake-mail" class="btn" hidden href="mailto:info@buylandinperu.com">Abrir el correo</a>
-            <button id="intake-copy" class="btn secondary" type="button" hidden>Copiar texto</button>
-          </p>
-        </div>
         <div id="book-meet">
           <h2>Programar una reunión de Google Meet</h2>
           <p class="actions">
-            <a data-book-link class="btn" hidden>Programar una reunión de Google Meet</a>
-            <button data-book-wait class="btn" type="button" aria-describedby="book-meet-note">Programar una reunión de Google Meet</button>
+            <a data-book-link class="btn" href="https://calendar.app.google/h65oLNrYFP7pGCRKA" target="_blank" rel="noopener noreferrer">Programar una reunión de Google Meet</a>
           </p>
-          <p id="book-meet-note" data-book-pending>La programación se abre cuando se agregue el enlace de citas de Google Calendar.</p>
-          <p data-book-detail hidden>La reunión se agrega al Google Calendar del propietario e incluye un enlace de Google Meet si así lo configuró.</p>
+          <p>La reunión se agrega al Google Calendar del propietario e incluye un enlace de Google Meet si así lo configuró.</p>
         </div>
       </div>
     </section>

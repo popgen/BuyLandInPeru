@@ -32,75 +32,33 @@
     });
   });
 
-  var form = document.getElementById("intake");
-  if (!form) return;
-
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    if (!form.reportValidity()) return;
-
-    var data = new FormData(form);
-    var lines = [];
-    form.querySelectorAll("input, select, textarea").forEach(function (field) {
-      if (!field.name || field.type === "submit") return;
-      var value = (data.get(field.name) || "").toString().trim();
-      if (!value) return;
-      var label = field.id ? document.querySelector('label[for="' + field.id + '"]') : null;
-      var name = field.name;
-      if (label) {
-        var clone = label.cloneNode(true);
-        clone.querySelectorAll("input, select, textarea, .hint").forEach(function (el) {
-          el.remove();
-        });
-        name = clone.textContent.replace(/\s+/g, " ").trim() || field.name;
-      }
-      lines.push(name + ": " + value);
-    });
-
-    var body = lines.join("\n");
+  var status = document.getElementById("form-status");
+  if (status && window.URLSearchParams) {
+    var sent = new URLSearchParams(location.search).get("sent");
     var es = document.documentElement.lang === "es";
-    var subject = form.getAttribute("data-subject") || (es ? "Consulta Buy Land in Peru" : "Buy Land in Peru inquiry");
-    var email = "info@buylandinperu.com";
-    var href = "mailto:" + email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-
-    var preview = document.getElementById("intake-preview");
-    var mail = document.getElementById("intake-mail");
-    var copy = document.getElementById("intake-copy");
-    var note = document.getElementById("intake-note");
-    if (preview) {
-      preview.hidden = false;
-      var block = document.getElementById("intake-text");
-      if (block) block.textContent = body;
+    var link = '<a href="https://calendar.app.google/h65oLNrYFP7pGCRKA" target="_blank" rel="noopener noreferrer">https://calendar.app.google/h65oLNrYFP7pGCRKA</a>';
+    var text = "";
+    if (sent === "1") {
+      text = es
+        ? "Su nota fue enviada, y un agradecimiento va en camino a su correo. Reserve un horario: "
+        : "Your note was sent, and a thank-you is on its way to your email. Book a time: ";
+    } else if (sent === "2") {
+      text = es
+        ? "Su nota fue enviada. El correo de agradecimiento no pudo salir ahora. Igual puede reservar un horario: "
+        : "Your note was sent. The thank-you email could not go out just now. You can still book a time: ";
+    } else if (sent === "noted") {
+      text = es
+        ? "Recibimos la nota, pero ese correo no parecía válido, así que no enviamos un agradecimiento. Escriba a info@buylandinperu.com. También puede reservar: "
+        : "We received the note, but that email address did not look valid, so no thank-you was sent. Write to info@buylandinperu.com. You can still book: ";
+    } else if (sent === "0") {
+      text = es
+        ? "La nota no pudo enviarse. Escriba directamente a info@buylandinperu.com."
+        : "The note could not be sent. Please write directly to info@buylandinperu.com.";
     }
-    if (mail) {
-      mail.href = href;
-      mail.hidden = false;
+    if (text) {
+      status.hidden = false;
+      status.innerHTML = text + (sent === "0" ? "" : link);
+      status.focus();
     }
-    if (note) {
-      note.hidden = false;
-      note.textContent = href.length > 1800
-        ? (es
-          ? "Esta nota es tan larga que algunos programas de correo la cortan. Copie el texto y péguelo en un mensaje a info@buylandinperu.com."
-          : "This note is long enough that some email apps will cut it off. Copy the text below and paste it into a message to info@buylandinperu.com.")
-        : (es
-          ? "Abra su correo con el botón, o copie el texto. Se envía a info@buylandinperu.com."
-          : "Open your email app with the button, or copy the text. It goes to info@buylandinperu.com.");
-    }
-    if (copy) {
-      copy.hidden = false;
-      copy.onclick = function () {
-        var done = function () {
-          copy.textContent = form.getAttribute("data-copied") || "Copied";
-        };
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(body).then(done).catch(function () {
-            window.prompt("Copy this note:", body);
-          });
-        } else {
-          window.prompt("Copy this note:", body);
-        }
-      };
-    }
-    if (preview) preview.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
+  }
 })();
