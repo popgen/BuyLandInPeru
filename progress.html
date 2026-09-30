@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=ec41334d">
+<link rel="stylesheet" href="css/style.css?v=44617c57">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -69,7 +69,39 @@
   </div>
 </nav>
 <main id="main">
-<header class="page-head"><div class="wrap"><p class="eyebrow">Build progress</p>
+<div class="mth" data-media="timelapse" data-day="Day" data-photo="Photo" data-of="of">
+  <div class="mth-clear">
+    <div class="mth-stage">
+      <img class="mth-before" src="images/web/first-day-land.jpg" alt="The land the first day, completely overgrown">
+      <img class="mth-after" src="images/web/property-today.jpg" alt="The same land today, with the house">
+      <div class="mth-veil"></div>
+      <svg class="mth-leaves" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+      <div class="mth-copy">
+        <p class="mth-hint">Scroll to clear the land ↓</p>
+        <p class="eyebrow">My house, start to finish</p>
+        <div class="mth-heads"><h2 class="mth-then">This is what the land looked like the day I first walked it.</h2><p class="mth-now" aria-hidden="true">And this is it today.</p></div>
+        <p>Scroll to clear the jungle, then watch two years of building go by, one photo at a time.</p>
+      </div>
+    </div>
+  </div>
+  <div class="mth-tl">
+    <div class="mth-tstage">
+      <div class="mth-photo"><img class="mth-blur" alt=""><img class="mth-sharp" alt=""></div>
+      <div class="mth-side">
+        <p class="eyebrow">The build, frame by frame</p>
+        <p class="mth-date"></p>
+        <p class="mth-day"></p>
+        <span class="mth-phase"></span>
+        <p class="mth-cap"></p>
+        <div class="mth-scrub" aria-hidden="true"></div>
+        <div class="mth-range"><span class="mth-from"></span><span class="mth-to"></span></div>
+        <a class="textlink" href="#all-photos">See every photo with its date</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/timelapse.js?v=366d99b4" defer></script>
+<header class="page-head" id="all-photos"><div class="wrap"><p class="eyebrow">Build progress</p>
     <h1>From jungle lot to home, one photo at a time</h1>
     <p class="lede">What building on raw land in the Peruvian jungle actually looks like, from May 17, 2024 to August 28, 2026: the slab, the frame, the roof, the stonework, the pool and the garden. Tap any photo to see it larger.</p></div></header>
 <section><div class="wrap narrow-tl"><section class="tl-phase"><h2>Before</h2><ol class="timeline"><li class="tl-item"><time datetime="2024-05-17">May 17, 2024</time>
@@ -136,7 +168,7 @@
     <p class="measure">I've been through every step here: finding workers, sourcing materials and waiting out the rainy season. Tell me what you're planning and I'll tell you what's realistic.</p>
     <div class="cta" style="margin:0 0 1.6rem"><a class="btn btn-primary" href="contact.html#form">Send me a message</a></div>
     <p style="margin:0 0 .3rem;opacity:.8">Or email me directly:</p>
-    <a class="email" href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>
+    <a class="js-mail email" href="contact.html#form" data-m="moc.urepnidnalyub@ofni" data-q="" data-show="1">info [at] buylandinperu.com</a>
   </div>
 </section>
 </main>
@@ -146,7 +178,7 @@
       <div>
         <div class="foot-brand"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M2 26 L11 12 L17 20 L22 14 L30 26 Z" fill="#6E9C6B"/><circle cx="24" cy="7" r="3.5" fill="#E9A81B"/></svg>Buy Land In Peru</div>
         <p style="opacity:.8;max-width:38ch">Helping people abroad find, check and buy property in Peru, from someone who lives on his own land outside Lamas, San Martín.</p>
-        <a class="foot-email" href="mailto:info@buylandinperu.com">info@buylandinperu.com</a>
+        <a class="js-mail foot-email" href="contact.html#form" data-m="moc.urepnidnalyub@ofni" data-q="" data-show="1">info [at] buylandinperu.com</a>
       </div>
       <div>
         <h4>The service</h4>
@@ -176,6 +208,6 @@
     </div>
   </div>
 </footer>
-<script src="js/site.js?v=19ac1445" defer></script>
+<script src="js/site.js?v=3bb06b8c" defer></script>
 </body>
 </html>

@@ -47,3 +47,13 @@
     });
   }
 })();
+
+/* email addresses are assembled here so they never sit as plain text in the page source */
+(function () {
+  var els = document.querySelectorAll(".js-mail[data-m]");
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i], a = el.getAttribute("data-m").split("").reverse().join("");
+    if (el.tagName === "A") el.setAttribute("href", "mailto:" + a + (el.getAttribute("data-q") || ""));
+    if (el.getAttribute("data-show")) el.textContent = a;
+  }
+})();
